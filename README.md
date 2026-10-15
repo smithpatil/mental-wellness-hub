@@ -37,7 +37,7 @@ query -> consent check -> crisis gate (lexicon + semantic) -> hybrid retrieval -
 3. **Fallback:** if the best score is below a tuned threshold the UI offers browsing by category instead of weak recommendations.
 4. **Privacy:** query text is processed in memory only and is never logged, cached or stored.
 
-Measured results, the protocol and the limits of the (author-written) dataset are documented in `nlp-service/README.md` and in the paper in `paper/`.
+Measured results, the protocol and the limits of the (author-written) dataset are documented in `nlp-service/README.md`; raw results are in `nlp-service/results/`.
 
 ## Security and privacy by design
 
@@ -137,7 +137,6 @@ docker-compose up
 │   ├── data/ data_build/   corpus, queries, labels, crisis sets (author-written)
 │   ├── eval/               metrics, run_eval (dev / test phases), SUS scoring
 │   └── tests/ results/ config/
-├── paper/                  paper build script (numbers are read from result files)
 ├── docker-compose.yml
 └── .env.example
 ```
@@ -177,6 +176,19 @@ cd server && node loadtest/run.js 50,100,200
 ```
 
 The API tests start a throw-away in-memory MongoDB (`mongodb-memory-server`, downloads a `mongod` binary on first run), so they never touch a real database.
+
+## Project status
+
+| Area | Status |
+|---|---|
+| Platform (auth, awareness, self-help tools, mood journal, counselling requests, community, emergency help, admin) | Complete |
+| Security and privacy controls (tokens, CSRF, encryption, consent, audit, retention, export/erase) | Complete, covered by automated tests |
+| NLP recommender and crisis gate | Complete, evaluated on author-written data (see Results) |
+| Usability study (SUS) and ethics approval | **Not done** (`nlp-service/eval/sus.py` scores real data) |
+| Independent annotation, counsellor review of corpus and lexicon | **Not done** |
+| External vulnerability scan, TLS and encryption-at-rest checks | **Not done** (deployment-level) |
+
+Quick end-to-end check without installing MongoDB: `cd server && npm run dev:memory`, start the NLP service (see below), then `cd client && npm run dev`.
 
 ## Results (final system)
 

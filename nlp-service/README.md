@@ -46,7 +46,7 @@ python data_build/build_dataset.py                   # regenerates data/*.json (
 
 ### Sealed held-out set (v2)
 
-The first test split has been seen (its results are in the paper), so it can no longer judge a *changed* system. A fresh set is sealed in `data/heldout/`
+The first test split has been seen (its results are recorded in `results/test.json`), so it can no longer judge a *changed* system. A fresh set is sealed in `data/heldout/`
 (128 retrieval queries; 60 crisis, 40 hard-negative, 30 out-of-scope and the 128 everyday queries as non-crisis). It was written after the first
 evaluation, without using any model output, and `data_build/build_heldout.py` verifies that no text duplicates or near-duplicates an earlier
 query, crisis query, hard negative, out-of-scope query or stage-2 exemplar. `data/heldout/SEAL.json` holds SHA-256 hashes.
