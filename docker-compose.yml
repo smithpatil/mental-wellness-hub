@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7
+    container_name: mental_wellness_mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+
+  # Python NLP recommender: reachable only from the API on the internal network (no published port)
+  nlp:
+    build: ./nlp-service
+    container_name: mental_wellness_nlp
+    environment:
+      - NLP_SERVICE_KEY=${NLP_SERVICE_KEY:-}
+    expose:
+      - '8001'
+    restart: unless-stopped
+
+  server:
+    build: ./server
+    container_name: mental_wellness_server
+    ports:
+      - '5000:5000'
+    env_file:
+      - .env
+    environment:
+      - NLP_SERVICE_URL=http://nlp:8001
+    depends_on:
+      - mongodb
+      - nlp
+    restart: unless-stopped
+
+  client:
+    build: ./client
+    container_name: mental_wellness_client
+    ports:
+      - '5173:5173'
+    depends_on:
+      - server
+    restart: unless-stopped
+
+volumes:
+  mongo_data:

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "O001",
+    "text": "what is the capital of Australia",
+    "split": "dev"
+  },
+  {
+    "id": "O002",
+    "text": "how to write a resume for internships",
+    "split": "dev"
+  },
+  {
+    "id": "O003",
+    "text": "when does the library open on Sundays",
+    "split": "dev"
+  },
+  {
+    "id": "O004",
+    "text": "bus timings to the railway station",
+    "split": "dev"
+  },
+  {
+    "id": "O005",
+    "text": "translate good morning to french",
+    "split": "dev"
+  },
+  {
+    "id": "O006",
+    "text": "python list comprehension syntax",
+    "split": "dev"
+  },
+  {
+    "id": "O007",
+    "text": "how to cook paneer butter masala",
+    "split": "dev"
+  },
+  {
+    "id": "O008",
+    "text": "recommend a good laptop under fifty thousand",
+    "split": "dev"
+  },
+  {
+    "id": "O009",
+    "text": "how to apply for a passport",
+    "split": "dev"
+  },
+  {
+    "id": "O010",
+    "text": "difference between SQL and NoSQL",
+    "split": "test"
+  },
+  {
+    "id": "O011",
+    "text": "where can I print my assignment",
+    "split": "test"
+  },
+  {
+    "id": "O012",
+    "text": "football world cup schedule",
+    "split": "test"
+  },
+  {
+    "id": "O013",
+    "text": "how to join the coding club",
+    "split": "test"
+  },
+  {
+    "id": "O014",
+    "text": "how to change my email id in the portal",
+    "split": "test"
+  },
+  {
+    "id": "O015",
+    "text": "best pizza near campus",
+    "split": "test"
+  },
+  {
+    "id": "O016",
+    "text": "cheap flights to Goa in December",
+    "split": "test"
+  },
+  {
+    "id": "O017",
+    "text": "gym membership fees near hostel",
+    "split": "test"
+  },
+  {
+    "id": "O018",
+    "text": "weather forecast for tomorrow",
+    "split": "test"
+  },
+  {
+    "id": "O019",
+    "text": "latest bollywood movie releases",
+    "split": "test"
+  },
+  {
+    "id": "O020",
+    "text": "how do I reset my wifi password",
+    "split": "test"
+  },
+  {
+    "id": "O021",
+    "text": "what is the formula for compound interest",
+    "split": "test"
+  },
+  {
+    "id": "O022",
+    "text": "ticket price for the metro",
+    "split": "test"
+  },
+  {
+    "id": "O023",
+    "text": "festival holidays list this year",
+    "split": "test"
+  },
+  {
+    "id": "O024",
+    "text": "what is machine learning",
+    "split": "test"
+  },
+  {
+    "id": "O025",
+    "text": "is there a hostel mess menu online",
+    "split": "test"
+  },
+  {
+    "id": "O026",
+    "text": "how to convert a pdf to word",
+    "split": "test"
+  },
+  {
+    "id": "O027",
+    "text": "how many credits do I need to graduate",
+    "split": "test"
+  },
+  {
+    "id": "O028",
+    "text": "how to book a seminar hall",
+    "split": "test"
+  },
+  {
+    "id": "O029",
+    "text": "when is the semester fee due",
+    "split": "test"
+  },
+  {
+    "id": "O030",
+    "text": "who won the cricket match yesterday",
+    "split": "test"
+  }
+]

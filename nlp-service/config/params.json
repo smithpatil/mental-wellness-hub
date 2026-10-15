@@ -1,0 +1,19 @@
+{
+  "alpha": 0.85,
+  "k": 5,
+  "tau": 0.5544,
+  "theta_c": 0.5311,
+  "scaler_sbert": {
+    "lo": -0.00022043474018573194,
+    "hi": 0.5170689159631728
+  },
+  "scaler_tfidf": {
+    "lo": 0.0,
+    "hi": 0.16101685428308385
+  },
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2"
+}

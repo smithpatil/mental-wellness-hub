@@ -1,0 +1,690 @@
+{
+  "n_test_queries": 140,
+  "n_bootstrap": 1000,
+  "best_method": "Hybrid",
+  "params": {
+    "alpha": 0.85,
+    "k": 5,
+    "tau": 0.5544,
+    "theta_c": 0.5311,
+    "scaler_sbert": {
+      "lo": -0.00022043474018573194,
+      "hi": 0.5170689159631728
+    },
+    "scaler_tfidf": {
+      "lo": 0.0,
+      "hi": 0.16101685428308385
+    },
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "metrics": {
+    "BM25": {
+      "P@3": {
+        "mean": 0.31666666666666665,
+        "lo": 0.27619047619047615,
+        "hi": 0.3595238095238095
+      },
+      "P@5": {
+        "mean": 0.22857142857142856,
+        "lo": 0.20428571428571426,
+        "hi": 0.25571428571428567
+      },
+      "MRR": {
+        "mean": 0.6528697336795865,
+        "lo": 0.5836882415621872,
+        "hi": 0.7223980934109755
+      },
+      "nDCG@3": {
+        "mean": 0.44457101725888015,
+        "lo": 0.3944761541358372,
+        "hi": 0.4989051431560289
+      },
+      "nDCG@5": {
+        "mean": 0.4386269826120647,
+        "lo": 0.3962390040764846,
+        "hi": 0.4845526046991652
+      }
+    },
+    "TF-IDF": {
+      "P@3": {
+        "mean": 0.3142857142857143,
+        "lo": 0.2738095238095238,
+        "hi": 0.35714285714285715
+      },
+      "P@5": {
+        "mean": 0.23142857142857143,
+        "lo": 0.20714285714285716,
+        "hi": 0.25857142857142856
+      },
+      "MRR": {
+        "mean": 0.6553959941837882,
+        "lo": 0.5834845216978296,
+        "hi": 0.7213675631633794
+      },
+      "nDCG@3": {
+        "mean": 0.4402238401661908,
+        "lo": 0.38997779423090395,
+        "hi": 0.49315735483106043
+      },
+      "nDCG@5": {
+        "mean": 0.44013256427522,
+        "lo": 0.3970553915313131,
+        "hi": 0.48669329446407655
+      }
+    },
+    "SBERT": {
+      "P@3": {
+        "mean": 0.3952380952380952,
+        "lo": 0.35232142857142856,
+        "hi": 0.4428571428571428
+      },
+      "P@5": {
+        "mean": 0.28857142857142853,
+        "lo": 0.26,
+        "hi": 0.31857142857142856
+      },
+      "MRR": {
+        "mean": 0.7322152463872365,
+        "lo": 0.6712513941980301,
+        "hi": 0.7940924968671679
+      },
+      "nDCG@3": {
+        "mean": 0.5401208706452989,
+        "lo": 0.4871184211263729,
+        "hi": 0.5938299727568359
+      },
+      "nDCG@5": {
+        "mean": 0.5407788591796526,
+        "lo": 0.4937678308956681,
+        "hi": 0.5905013320649505
+      }
+    },
+    "Hybrid": {
+      "P@3": {
+        "mean": 0.39285714285714285,
+        "lo": 0.35238095238095235,
+        "hi": 0.4357142857142857
+      },
+      "P@5": {
+        "mean": 0.29,
+        "lo": 0.2614285714285714,
+        "hi": 0.32
+      },
+      "MRR": {
+        "mean": 0.7444892615370281,
+        "lo": 0.6806204830048814,
+        "hi": 0.8048788232873814
+      },
+      "nDCG@3": {
+        "mean": 0.5457922907029151,
+        "lo": 0.49661711139180054,
+        "hi": 0.5977921853591304
+      },
+      "nDCG@5": {
+        "mean": 0.5498183668998863,
+        "lo": 0.504181089149813,
+        "hi": 0.5974913808563389
+      }
+    }
+  },
+  "paired_vs_bm25": {
+    "TF-IDF": {
+      "nDCG@5": {
+        "delta": 0.0015055816631553765,
+        "ci_lo": -0.006597869867958563,
+        "ci_hi": 0.009448753047967088,
+        "p": 0.702,
+        "rel_gain_pct": 0.3432487564238518
+      },
+      "P@5": {
+        "delta": 0.0028571428571428576,
+        "ci_lo": -0.004285714285714286,
+        "ci_hi": 0.01,
+        "p": 0.556,
+        "rel_gain_pct": 1.2500000000000002
+      },
+      "MRR": {
+        "delta": 0.002526260504201681,
+        "ci_lo": -0.010333858543417366,
+        "ci_hi": 0.01646310399159663,
+        "p": 0.734,
+        "rel_gain_pct": 0.3869471004519735
+      }
+    },
+    "SBERT": {
+      "nDCG@5": {
+        "delta": 0.10215187656758791,
+        "ci_lo": 0.0648570561412852,
+        "ci_hi": 0.13835278703118406,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 23.289008797239045
+      },
+      "P@5": {
+        "delta": 0.060000000000000005,
+        "ci_lo": 0.037142857142857144,
+        "ci_hi": 0.08428571428571428,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 26.250000000000004
+      },
+      "MRR": {
+        "delta": 0.07934551270765001,
+        "ci_lo": 0.02587766289096314,
+        "ci_hi": 0.1302293708107488,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 12.153345240934538
+      }
+    },
+    "Hybrid": {
+      "nDCG@5": {
+        "delta": 0.1111913842878216,
+        "ci_lo": 0.07668878463088591,
+        "ci_hi": 0.14352481926922622,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 25.349873285420458
+      },
+      "P@5": {
+        "delta": 0.06142857142857142,
+        "ci_lo": 0.038571428571428576,
+        "ci_hi": 0.08285714285714287,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 26.875
+      },
+      "MRR": {
+        "delta": 0.09161952785744154,
+        "ci_lo": 0.04703573653944806,
+        "ci_hi": 0.13708691333160986,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 14.033355067797691
+      }
+    }
+  },
+  "paired_hybrid_vs_sbert_posthoc": {
+    "nDCG@5": {
+      "delta": 0.009039507720233689,
+      "ci_lo": -0.00473875156459313,
+      "ci_hi": 0.02281612095651641,
+      "p": 0.226
+    },
+    "P@5": {
+      "delta": 0.001428571428571429,
+      "ci_lo": -0.011428571428571427,
+      "ci_hi": 0.012857142857142855,
+      "p": 0.854
+    },
+    "MRR": {
+      "delta": 0.012274015149791546,
+      "ci_lo": -0.0085835454486852,
+      "ci_hi": 0.036459627673913385,
+      "p": 0.262
+    }
+  },
+  "ndcg5_by_style": {
+    "BM25": {
+      "lex": 0.6372205453588472,
+      "long": 0.4330260214231293,
+      "mix": 0.12264547856060064,
+      "multi": 0.4496106901812659,
+      "para": 0.31385265029806425
+    },
+    "TF-IDF": {
+      "lex": 0.6417422246766736,
+      "long": 0.42438698565370736,
+      "mix": 0.12264547856060064,
+      "multi": 0.47008845238346897,
+      "para": 0.314310184453981
+    },
+    "SBERT": {
+      "lex": 0.7107651680031896,
+      "long": 0.5541079049092422,
+      "mix": 0.13813317908405326,
+      "multi": 0.43113679963554424,
+      "para": 0.48472847388529133
+    },
+    "Hybrid": {
+      "lex": 0.7372249105605722,
+      "long": 0.5542833374790661,
+      "mix": 0.15627841550275953,
+      "multi": 0.45122784869957283,
+      "para": 0.47314002243377373
+    }
+  },
+  "style_n": {
+    "lex": 53,
+    "long": 20,
+    "mix": 15,
+    "multi": 6,
+    "para": 46
+  },
+  "fallback": {
+    "tau": 0.5544,
+    "in_scope_fallback_rate": 0.09285714285714286,
+    "n_in_scope": 140,
+    "oos_rejection_rate": 0.7619047619047619,
+    "n_oos": 21
+  },
+  "crisis": {
+    "lexicon only": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 29,
+      "precision": 0.9285714285714286,
+      "recall": 0.30952380952380953,
+      "F2": 0.35714285714285715,
+      "false_diversion_rate": 0.005291005291005291
+    },
+    "semantic only": {
+      "tp": 32,
+      "fp": 19,
+      "fn": 10,
+      "precision": 0.6274509803921569,
+      "recall": 0.7619047619047619,
+      "F2": 0.730593607305936,
+      "false_diversion_rate": 0.10052910052910052
+    },
+    "lexicon + semantic (full gate)": {
+      "tp": 32,
+      "fp": 20,
+      "fn": 10,
+      "precision": 0.6153846153846154,
+      "recall": 0.7619047619047619,
+      "F2": 0.7272727272727273,
+      "false_diversion_rate": 0.10582010582010581
+    }
+  },
+  "crisis_ci": {
+    "recall": [
+      0.6190476190476191,
+      0.8809523809523809
+    ],
+    "false_diversion_rate": [
+      0.06349206349206349,
+      0.14814814814814814
+    ]
+  },
+  "crisis_by_kind": {
+    "direct": {
+      "n": 14,
+      "recall": 1.0
+    },
+    "indirect": {
+      "n": 21,
+      "recall": 0.5714285714285714
+    },
+    "mix": {
+      "n": 7,
+      "recall": 0.8571428571428571
+    }
+  },
+  "noncrisis_by_kind": {
+    "everyday": {
+      "n": 140,
+      "false_diversions": 17,
+      "rate": 0.12142857142857143
+    },
+    "hard_negative": {
+      "n": 28,
+      "false_diversions": 3,
+      "rate": 0.10714285714285714
+    },
+    "out_of_scope": {
+      "n": 21,
+      "false_diversions": 0,
+      "rate": 0.0
+    }
+  },
+  "missed_crisis": [
+    {
+      "id": "C030",
+      "text": "I have made up my mind that I am done with everything",
+      "kind": "indirect",
+      "semantic": 0.49551501870155334,
+      "lexicon": false
+    },
+    {
+      "id": "C032",
+      "text": "I think my family would have an easier time if I was not around",
+      "kind": "indirect",
+      "semantic": 0.4471944570541382,
+      "lexicon": false
+    },
+    {
+      "id": "C034",
+      "text": "my mind keeps telling me the world is better without me in it",
+      "kind": "indirect",
+      "semantic": 0.4789789021015167,
+      "lexicon": false
+    },
+    {
+      "id": "C037",
+      "text": "I am exhausted by existing and I want it to stop",
+      "kind": "indirect",
+      "semantic": 0.49868106842041016,
+      "lexicon": false
+    },
+    {
+      "id": "C038",
+      "text": "I have lost all hope and see no way forward at all",
+      "kind": "indirect",
+      "semantic": 0.46364960074424744,
+      "lexicon": false
+    },
+    {
+      "id": "C039",
+      "text": "tonight feels like the last night I can take",
+      "kind": "indirect",
+      "semantic": 0.4314637780189514,
+      "lexicon": false
+    },
+    {
+      "id": "C043",
+      "text": "no one knows how close I am to giving up completely",
+      "kind": "indirect",
+      "semantic": 0.5175555944442749,
+      "lexicon": false
+    },
+    {
+      "id": "C046",
+      "text": "I have been planning something and I think it is time",
+      "kind": "indirect",
+      "semantic": 0.5038493275642395,
+      "lexicon": false
+    },
+    {
+      "id": "C048",
+      "text": "I have been giving away my things because I will not need them",
+      "kind": "indirect",
+      "semantic": 0.39252033829689026,
+      "lexicon": false
+    },
+    {
+      "id": "C059",
+      "text": "I think main ab aur nahi jee sakta",
+      "kind": "mix",
+      "semantic": 0.526382565498352,
+      "lexicon": false
+    }
+  ],
+  "false_diversions": [
+    {
+      "id": "N031",
+      "text": "raat ko neend nahi aati, bas sochta rehta hu aur phone dekhta rehta hu",
+      "kind": "everyday",
+      "semantic": 0.5918660759925842,
+      "lexicon": false
+    },
+    {
+      "id": "N039",
+      "text": "meri neend ka time bilkul ulta ho gaya hai, subah 6 baje soti hu",
+      "kind": "everyday",
+      "semantic": 0.5898580551147461,
+      "lexicon": false
+    },
+    {
+      "id": "N041",
+      "text": "I wake up in the middle of the night and cannot go back to sleep",
+      "kind": "everyday",
+      "semantic": 0.5990006923675537,
+      "lexicon": false
+    },
+    {
+      "id": "N047",
+      "text": "raat mein beech beech mein aankh khul jaati hai, din bhar thakaan rehti hai",
+      "kind": "everyday",
+      "semantic": 0.687918484210968,
+      "lexicon": false
+    },
+    {
+      "id": "N063",
+      "text": "achanak se ghabrahat hoti hai, dil tez dhadakta hai aur saans phoolti hai",
+      "kind": "everyday",
+      "semantic": 0.6762701869010925,
+      "lexicon": false
+    },
+    {
+      "id": "N071",
+      "text": "class mein bolne se dar lagta hai, log kya sochenge isliye chup rehta hu",
+      "kind": "everyday",
+      "semantic": 0.6028080582618713,
+      "lexicon": false
+    },
+    {
+      "id": "N095",
+      "text": "ghar bahut yaad aata hai, naye shehar mein mann nahi lagta",
+      "kind": "everyday",
+      "semantic": 0.6985464096069336,
+      "lexicon": false
+    },
+    {
+      "id": "N103",
+      "text": "college mein koi dost nahi hai, naye log kaise banaun",
+      "kind": "everyday",
+      "semantic": 0.5434115529060364,
+      "lexicon": false
+    },
+    {
+      "id": "N111",
+      "text": "dosto ne mujhe trip mein nahi bulaya, bahut bura laga",
+      "kind": "everyday",
+      "semantic": 0.5388883352279663,
+      "lexicon": false
+    },
+    {
+      "id": "N119",
+      "text": "main akela rehta hu, kisi se baat karne ka mann nahi karta par akelapan bhi khalta hai",
+      "kind": "everyday",
+      "semantic": 0.6862878799438477,
+      "lexicon": false
+    },
+    {
+      "id": "N124",
+      "text": "I tell myself I will begin tomorrow and then tomorrow never comes",
+      "kind": "everyday",
+      "semantic": 0.5876684188842773,
+      "lexicon": false
+    },
+    {
+      "id": "N127",
+      "text": "kaam ko kal pe taalta rehta hu aur phir last minute pe sab hota hai",
+      "kind": "everyday",
+      "semantic": 0.6140984296798706,
+      "lexicon": false
+    },
+    {
+      "id": "N135",
+      "text": "bahut saare kaam ek saath aa gaye hai, samajh nahi aa raha kya pehle karu",
+      "kind": "everyday",
+      "semantic": 0.6929773092269897,
+      "lexicon": false
+    },
+    {
+      "id": "N159",
+      "text": "pura din baithke padhne se body akad jaati hai, kuch stretching bata do",
+      "kind": "everyday",
+      "semantic": 0.584288477897644,
+      "lexicon": false
+    },
+    {
+      "id": "N167",
+      "text": "meditation kaise shuru karu, mann shant karna hai",
+      "kind": "everyday",
+      "semantic": 0.6022783517837524,
+      "lexicon": false
+    },
+    {
+      "id": "N183",
+      "text": "padhte padhte dhyaan kahin aur chala jaata hai, kuch yaad nahi rehta",
+      "kind": "everyday",
+      "semantic": 0.7058818340301514,
+      "lexicon": false
+    },
+    {
+      "id": "N191",
+      "text": "padhne ka bilkul mann nahi karta, shuru kaise karu",
+      "kind": "everyday",
+      "semantic": 0.7050756216049194,
+      "lexicon": false
+    },
+    {
+      "id": "N219",
+      "text": "the lecture was so dull I wanted to die",
+      "kind": "hard_negative",
+      "semantic": 0.3933864235877991,
+      "lexicon": true
+    },
+    {
+      "id": "N233",
+      "text": "I can't live without my morning coffee",
+      "kind": "hard_negative",
+      "semantic": 0.5382534265518188,
+      "lexicon": false
+    },
+    {
+      "id": "N237",
+      "text": "my plant died, am I bad at caring for things",
+      "kind": "hard_negative",
+      "semantic": 0.5413404703140259,
+      "lexicon": false
+    }
+  ],
+  "n_test_crisis": 42,
+  "n_test_noncrisis": 189,
+  "worst_queries": [
+    {
+      "id": "Q021",
+      "text": "everyone at home expects me to top the class and I cannot bear letting them down",
+      "style": "para",
+      "ndcg5": 0.0,
+      "top1": "Speaking Up in Class Without Dreading It",
+      "top1_category": "anxiety",
+      "cause": "wrong category (no lexical overlap)"
+    },
+    {
+      "id": "Q039",
+      "text": "meri neend ka time bilkul ulta ho gaya hai, subah 6 baje soti hu",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Balancing Study, Rest and Social Time",
+      "top1_category": "time_management",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "Q047",
+      "text": "raat mein beech beech mein aankh khul jaati hai, din bhar thakaan rehti hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Gentle Evening Yoga",
+      "top1_category": "relaxation",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "Q063",
+      "text": "achanak se ghabrahat hoti hai, dil tez dhadakta hai aur saans phoolti hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Gentle Evening Yoga",
+      "top1_category": "relaxation",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "Q068",
+      "text": "I know the answer but my voice will not come out when the whole room is looking",
+      "style": "para",
+      "ndcg5": 0.0,
+      "top1": "Noise, Music and Concentration",
+      "top1_category": "focus",
+      "cause": "wrong category"
+    },
+    {
+      "id": "Q077",
+      "text": "even getting out of bed seems like a huge effort and I see no point",
+      "style": "para",
+      "ndcg5": 0.0,
+      "top1": "Beating the Urge to Put It Off",
+      "top1_category": "time_management",
+      "cause": "wrong category (no lexical overlap)"
+    },
+    {
+      "id": "Q111",
+      "text": "dosto ne mujhe trip mein nahi bulaya, bahut bura laga",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Gentle Evening Yoga",
+      "top1_category": "relaxation",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "Q119",
+      "text": "main akela rehta hu, kisi se baat karne ka mann nahi karta par akelapan bhi khalta hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Talking to Family About Expectations",
+      "top1_category": "exam_stress",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "Q126",
+      "text": "the thing I need to do sits there and I somehow never get around to it",
+      "style": "para",
+      "ndcg5": 0.0,
+      "top1": "Designing a Study Space That Helps",
+      "top1_category": "focus",
+      "cause": "wrong category (no lexical overlap)"
+    },
+    {
+      "id": "Q127",
+      "text": "kaam ko kal pe taalta rehta hu aur phir last minute pe sab hota hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "The Night-Before Reset Plan",
+      "top1_category": "exam_stress",
+      "cause": "wrong category [code-mixed]"
+    }
+  ],
+  "worst_cause_counts": {
+    "wrong category (no lexical overlap)": 3,
+    "wrong category (no lexical overlap) [code-mixed]": 5,
+    "wrong category": 1,
+    "wrong category [code-mixed]": 1
+  },
+  "all_low_ndcg_causes": {
+    "wrong category | para": 13,
+    "right category, wrong subtopic | lex": 7,
+    "right category, wrong subtopic | para": 13,
+    "wrong category | mix": 11,
+    "right category, wrong subtopic | mix": 3,
+    "right category, wrong subtopic | long": 3,
+    "wrong category | lex": 1,
+    "wrong category | long": 4,
+    "multi-concern | multi": 4
+  },
+  "n_ndcg5_below_0.5": 59,
+  "latency_in_process": {
+    "n": 140,
+    "p50_ms": 14.300349983386695,
+    "p95_ms": 17.807155032642182,
+    "mean_ms": 14.14303642231971,
+    "note": "in-process, single thread, CPU, uncached encoder"
+  },
+  "kappa": null,
+  "environment": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.5.4",
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "sentence_transformers": "6.1.0",
+    "torch": "2.14.1+cpu"
+  },
+  "data_hashes": {
+    "corpus.json": "cf79ebb1ec58a63e",
+    "queries.json": "1c5f894670763e7c",
+    "qrels.json": "5fc60b3cc2f9e9c3",
+    "safety.json": "4dc81efc2cc25b7a",
+    "crisis_lexicon.json": "b494289522200743",
+    "crisis_exemplars.json": "4f1207079ddbcfb7"
+  },
+  "params_hash": "6b7a8f4073b49d66"
+}

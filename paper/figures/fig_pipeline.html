@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;background:#fff}
+svg{display:block;font-family:"Times New Roman",Times,serif}
+.t{font-size:25px;fill:#1d1d1d}.s{font-size:22px;fill:#1d1d1d}.i{font-style:italic}
+.box{stroke:#222;stroke-width:3;rx:16}
+</style></head><body>
+<svg width="1050" height="1035" viewBox="0 0 1050 1035" xmlns="http://www.w3.org/2000/svg">
+  <defs><marker id="a" markerWidth="11" markerHeight="9" refX="10" refY="4.5" orient="auto"><path d="M0,0 L11,4.5 L0,9 z" fill="#222"/></marker></defs>
+  <g stroke="#222" stroke-width="3" fill="none" marker-end="url(#a)">
+    <line x1="420" y1="78" x2="420" y2="114"/>
+    <line x1="420" y1="186" x2="420" y2="222"/>
+    <line x1="420" y1="306" x2="420" y2="332"/>
+    <line x1="567" y1="380" x2="765" y2="380"/>
+    <line x1="420" y1="430" x2="420" y2="466"/>
+    <line x1="420" y1="533" x2="420" y2="556" marker-end=""/>
+    <line x1="260" y1="560" x2="260" y2="583"/>
+    <line x1="580" y1="560" x2="580" y2="583"/>
+    <line x1="260" y1="647" x2="260" y2="672" marker-end=""/>
+    <line x1="580" y1="647" x2="580" y2="672" marker-end=""/>
+    <line x1="420" y1="745" x2="420" y2="768"/>
+  </g>
+  <polyline points="260,556 580,556" fill="none" stroke="#222" stroke-width="3"/>
+  <polyline points="260,672 580,672" fill="none" stroke="#222" stroke-width="3"/>
+  <line x1="420" y1="672" x2="420" y2="678" stroke="#222" stroke-width="3"/>
+
+  <!-- boxes -->
+  <rect class="box" x="210" y="12" width="420" height="66" fill="#e8eef9"/>
+  <text x="420" y="53" text-anchor="middle" class="t">Student query (free text)</text>
+
+  <rect class="box" x="210" y="114" width="420" height="72" fill="#eaf2e6"/>
+  <text x="420" y="146" text-anchor="middle" class="t">Consent check +</text><text x="420" y="173" text-anchor="middle" class="t">input validation</text>
+
+  <rect class="box" x="210" y="222" width="420" height="84" fill="#fbe3e3"/>
+  <text x="420" y="256" text-anchor="middle" class="t">Crisis gate</text>
+  <text x="420" y="287" text-anchor="middle" class="s">lexicon OR classifier g(q) ≥ θc</text>
+
+  <polygon points="420,332 567,380 420,430 273,380" fill="#fff" stroke="#222" stroke-width="3"/>
+  <text x="420" y="388" text-anchor="middle" class="t">Crisis?</text>
+  <text x="662" y="364" text-anchor="middle" class="s i">yes</text>
+  <text x="450" y="456" class="s i">no</text>
+
+  <rect class="box" x="765" y="332" width="270" height="100" fill="#fbe3e3"/>
+  <text x="900" y="368" text-anchor="middle" class="s">Emergency panel +</text><text x="900" y="395" text-anchor="middle" class="s">helplines; recommender</text><text x="900" y="422" text-anchor="middle" class="s">bypassed</text>
+
+  <rect class="box" x="210" y="466" width="420" height="67" fill="#eaf2e6"/>
+  <text x="420" y="498" text-anchor="middle" class="s">Preprocess (stop words,</text><text x="420" y="523" text-anchor="middle" class="s">suffix stripping)</text>
+
+  <rect class="box" x="110" y="583" width="300" height="64" fill="#fbf0dc"/>
+  <text x="260" y="624" text-anchor="middle" class="t">TF-IDF</text>
+  <rect class="box" x="430" y="583" width="300" height="64" fill="#fbf0dc"/>
+  <text x="580" y="624" text-anchor="middle" class="t">SBERT</text>
+
+  <rect class="box" x="210" y="678" width="420" height="67" fill="#fbf0dc"/>
+  <text x="420" y="720" text-anchor="middle" class="t">Hybrid score fusion (α)</text>
+
+  <polygon points="420,768 600,820 420,872 240,820" fill="#fff" stroke="#222" stroke-width="3"/>
+  <text x="420" y="828" text-anchor="middle" class="t">Max score ≥ τ ?</text>
+  <text x="170" y="800" text-anchor="middle" class="s i">yes</text>
+  <text x="690" y="800" text-anchor="middle" class="s i">no</text>
+  <g stroke="#222" stroke-width="3" fill="none" marker-end="url(#a)">
+    <polyline points="240,820 190,820 190,918"/>
+    <polyline points="600,820 850,820 850,918"/>
+  </g>
+  <rect class="box" x="20" y="918" width="360" height="86" fill="#e8eef9"/>
+  <text x="200" y="954" text-anchor="middle" class="s">Top-k resources +</text><text x="200" y="982" text-anchor="middle" class="s">“why this?” matched terms</text>
+  <rect class="box" x="640" y="918" width="390" height="86" fill="#fff"/>
+  <text x="835" y="954" text-anchor="middle" class="s">Low confidence: browse</text><text x="835" y="982" text-anchor="middle" class="s">by category (no pick)</text>
+</svg></body></html>

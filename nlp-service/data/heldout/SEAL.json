@@ -1,0 +1,10 @@
+{
+  "sealed_at": "2026-10-14T19:07:36.382039+00:00",
+  "note": "Evaluate ONCE, after system changes are frozen. Do not tune on this set.",
+  "files": {
+    "queries.json": "b7ad08e2745c37665db30edf973da700022da0825a5e2cb5d578ba62266a683f",
+    "qrels.json": "d4aced3e7aee2987fb5dc222948e96ef7dcb0d749422fc450301acac49a1a0c7",
+    "safety.json": "881e40b5233cab70d3f8c141123cf0f945c004d09f9cb947c4ca3c25351bf02f",
+    "out_of_scope.json": "448c5ac619ea5760e7e7d51027769c835d60a9f7ab256379fc36241a9064380e"
+  }
+}

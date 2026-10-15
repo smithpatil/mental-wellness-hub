@@ -1,0 +1,610 @@
+{
+  "n_test_queries": 128,
+  "n_bootstrap": 1000,
+  "best_method": "Hybrid",
+  "params": {
+    "alpha": 0.85,
+    "k": 5,
+    "tau": 0.5544,
+    "theta_c": 0.5311,
+    "scaler_sbert": {
+      "lo": -0.00022043474018573194,
+      "hi": 0.5170689159631728
+    },
+    "scaler_tfidf": {
+      "lo": 0.0,
+      "hi": 0.16101685428308385
+    },
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "metrics": {
+    "BM25": {
+      "P@3": {
+        "mean": 0.2786458333333333,
+        "lo": 0.23697916666666666,
+        "hi": 0.3203776041666666
+      },
+      "P@5": {
+        "mean": 0.2109375,
+        "lo": 0.18125000000000002,
+        "hi": 0.2390625
+      },
+      "MRR": {
+        "mean": 0.6030145329119346,
+        "lo": 0.5247099222982403,
+        "hi": 0.6724301723141628
+      },
+      "nDCG@3": {
+        "mean": 0.40012805105665583,
+        "lo": 0.3460307250468984,
+        "hi": 0.4523834612685181
+      },
+      "nDCG@5": {
+        "mean": 0.3979490893821037,
+        "lo": 0.35034910368922695,
+        "hi": 0.44360563763063904
+      }
+    },
+    "TF-IDF": {
+      "P@3": {
+        "mean": 0.27083333333333337,
+        "lo": 0.22916666666666669,
+        "hi": 0.3125
+      },
+      "P@5": {
+        "mean": 0.2109375,
+        "lo": 0.18125000000000002,
+        "hi": 0.2390625
+      },
+      "MRR": {
+        "mean": 0.604069666448386,
+        "lo": 0.5266094816213608,
+        "hi": 0.6717008664601078
+      },
+      "nDCG@3": {
+        "mean": 0.39131281863233625,
+        "lo": 0.3373746418613901,
+        "hi": 0.44066285527672383
+      },
+      "nDCG@5": {
+        "mean": 0.3947747978706853,
+        "lo": 0.3488206677248651,
+        "hi": 0.4372978385087677
+      }
+    },
+    "SBERT": {
+      "P@3": {
+        "mean": 0.3671875,
+        "lo": 0.3177083333333333,
+        "hi": 0.4115234374999999
+      },
+      "P@5": {
+        "mean": 0.27656250000000004,
+        "lo": 0.246875,
+        "hi": 0.3046875
+      },
+      "MRR": {
+        "mean": 0.6747757759001818,
+        "lo": 0.6008924680698382,
+        "hi": 0.7341345571032118
+      },
+      "nDCG@3": {
+        "mean": 0.49300390594466487,
+        "lo": 0.435092234217253,
+        "hi": 0.5458914201414788
+      },
+      "nDCG@5": {
+        "mean": 0.5022594447629166,
+        "lo": 0.45146159084677495,
+        "hi": 0.5479535663624833
+      }
+    },
+    "Hybrid": {
+      "P@3": {
+        "mean": 0.3932291666666667,
+        "lo": 0.34375,
+        "hi": 0.4375
+      },
+      "P@5": {
+        "mean": 0.2875,
+        "lo": 0.25468750000000007,
+        "hi": 0.31718750000000007
+      },
+      "MRR": {
+        "mean": 0.6893814174864614,
+        "lo": 0.6224309273579104,
+        "hi": 0.7496501519552008
+      },
+      "nDCG@3": {
+        "mean": 0.5171750570627909,
+        "lo": 0.4598091687886206,
+        "hi": 0.5685995942377637
+      },
+      "nDCG@5": {
+        "mean": 0.517702834401139,
+        "lo": 0.4651452197330648,
+        "hi": 0.5635245703476774
+      }
+    }
+  },
+  "paired_vs_bm25": {
+    "TF-IDF": {
+      "nDCG@5": {
+        "delta": -0.0031742915114183453,
+        "ci_lo": -0.012839129623085463,
+        "ci_hi": 0.005990829697361985,
+        "p": 0.528,
+        "rel_gain_pct": -0.7976627151847673
+      },
+      "P@5": {
+        "delta": 8.673617379884035e-19,
+        "ci_lo": -0.007812499999999999,
+        "ci_hi": 0.007812500000000002,
+        "p": 0.904,
+        "rel_gain_pct": 4.1119371282413205e-16
+      },
+      "MRR": {
+        "delta": 0.0010551335364514707,
+        "ci_lo": -0.013602123905495173,
+        "ci_hi": 0.014057608609875923,
+        "p": 0.876,
+        "rel_gain_pct": 0.1749764688682162
+      }
+    },
+    "SBERT": {
+      "nDCG@5": {
+        "delta": 0.10431035538081293,
+        "ci_lo": 0.0663641062824755,
+        "ci_hi": 0.14485716985179042,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 26.211984940781196
+      },
+      "P@5": {
+        "delta": 0.06562499999999999,
+        "ci_lo": 0.0421875,
+        "ci_hi": 0.090625,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 31.111111111111107
+      },
+      "MRR": {
+        "delta": 0.0717612429882472,
+        "ci_lo": 0.0017928895211889978,
+        "ci_hi": 0.139013806080466,
+        "p": 0.048,
+        "rel_gain_pct": 11.900416834353035
+      }
+    },
+    "Hybrid": {
+      "nDCG@5": {
+        "delta": 0.11975374501903527,
+        "ci_lo": 0.08672023010445776,
+        "ci_hi": 0.15463453733839214,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 30.092730003472838
+      },
+      "P@5": {
+        "delta": 0.0765625,
+        "ci_lo": 0.0546875,
+        "ci_hi": 0.0984375,
+        "p": 0.000999000999000999,
+        "rel_gain_pct": 36.2962962962963
+      },
+      "MRR": {
+        "delta": 0.08636688457452683,
+        "ci_lo": 0.02548552046984404,
+        "ci_hi": 0.14359683177010474,
+        "p": 0.006,
+        "rel_gain_pct": 14.322521242973096
+      }
+    }
+  },
+  "paired_hybrid_vs_sbert_posthoc": {
+    "nDCG@5": {
+      "delta": 0.015443389638222345,
+      "ci_lo": 0.00012186148232322458,
+      "ci_hi": 0.0324462827120847,
+      "p": 0.05
+    },
+    "P@5": {
+      "delta": 0.010937500000000001,
+      "ci_lo": 0.0,
+      "ci_hi": 0.021875,
+      "p": 0.058
+    },
+    "MRR": {
+      "delta": 0.014605641586279647,
+      "ci_lo": -0.019068067257866562,
+      "ci_hi": 0.051788536716209095,
+      "p": 0.398
+    }
+  },
+  "ndcg5_by_style": {
+    "BM25": {
+      "lex": 0.5562155372052541,
+      "long": 0.38270951496866856,
+      "mix": 0.21300805304684808,
+      "multi": 0.5478411092440882,
+      "para": 0.3939241675345431
+    },
+    "TF-IDF": {
+      "lex": 0.5541508410174895,
+      "long": 0.36913520745756845,
+      "mix": 0.21514081967369633,
+      "multi": 0.5641252289382541,
+      "para": 0.38949848875774135
+    },
+    "SBERT": {
+      "lex": 0.6938650485068845,
+      "long": 0.5069194376792449,
+      "mix": 0.18916268210777462,
+      "multi": 0.6401311253266186,
+      "para": 0.5376964143330558
+    },
+    "Hybrid": {
+      "lex": 0.7202977555094483,
+      "long": 0.5056972793725946,
+      "mix": 0.22231421065615412,
+      "multi": 0.6227480826966982,
+      "para": 0.5525949218511558
+    }
+  },
+  "style_n": {
+    "lex": 24,
+    "long": 24,
+    "mix": 24,
+    "multi": 8,
+    "para": 48
+  },
+  "fallback": {
+    "tau": 0.5544,
+    "in_scope_fallback_rate": 0.1640625,
+    "n_in_scope": 128,
+    "oos_rejection_rate": 0.8666666666666667,
+    "n_oos": 30
+  },
+  "crisis": {
+    "lexicon only": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 48,
+      "precision": 1.0,
+      "recall": 0.2,
+      "F2": 0.23809523809523808,
+      "false_diversion_rate": 0.0
+    },
+    "classifier/semantic only": {
+      "tp": 57,
+      "fp": 14,
+      "fn": 3,
+      "precision": 0.8028169014084507,
+      "recall": 0.95,
+      "F2": 0.9163987138263665,
+      "false_diversion_rate": 0.0707070707070707
+    },
+    "lexicon + semantic (full gate)": {
+      "tp": 57,
+      "fp": 14,
+      "fn": 3,
+      "precision": 0.8028169014084507,
+      "recall": 0.95,
+      "F2": 0.9163987138263665,
+      "false_diversion_rate": 0.0707070707070707
+    }
+  },
+  "crisis_ci": {
+    "recall": [
+      0.8833333333333333,
+      1.0
+    ],
+    "false_diversion_rate": [
+      0.04027777777777779,
+      0.1111111111111111
+    ]
+  },
+  "crisis_by_kind": {
+    "direct": {
+      "n": 20,
+      "recall": 0.95
+    },
+    "indirect": {
+      "n": 25,
+      "recall": 0.92
+    },
+    "mix": {
+      "n": 15,
+      "recall": 1.0
+    }
+  },
+  "noncrisis_by_kind": {
+    "everyday": {
+      "n": 128,
+      "false_diversions": 7,
+      "rate": 0.0546875
+    },
+    "hard_negative": {
+      "n": 40,
+      "false_diversions": 7,
+      "rate": 0.175
+    },
+    "out_of_scope": {
+      "n": 30,
+      "false_diversions": 0,
+      "rate": 0.0
+    }
+  },
+  "missed_crisis": [
+    {
+      "id": "HC010",
+      "text": "I cannot go on like this any more",
+      "kind": "direct",
+      "semantic": 0.07485214941490047,
+      "lexicon": false
+    },
+    {
+      "id": "HC029",
+      "text": "I have stopped seeing any point in tomorrow",
+      "kind": "indirect",
+      "semantic": 0.16755439662432958,
+      "lexicon": false
+    },
+    {
+      "id": "HC044",
+      "text": "I cannot see myself surviving this semester or this year",
+      "kind": "indirect",
+      "semantic": 0.0877040486395525,
+      "lexicon": false
+    }
+  ],
+  "false_diversions": [
+    {
+      "id": "HN034",
+      "text": "chhoti si baat ko lekar bhi mann mein hazaar tarah ke darr aa jaate hai",
+      "kind": "everyday",
+      "semantic": 0.17245950235335286,
+      "lexicon": false
+    },
+    {
+      "id": "HN044",
+      "text": "sabke saamne bolna padta hai toh gala sookh jaata hai aur awaaz kaanpti hai",
+      "kind": "everyday",
+      "semantic": 0.2025698379870397,
+      "lexicon": false
+    },
+    {
+      "id": "HN051",
+      "text": "I keep telling myself I am worthless and not good enough",
+      "kind": "everyday",
+      "semantic": 0.8253483722530194,
+      "lexicon": false
+    },
+    {
+      "id": "HN054",
+      "text": "mujhe lagta hai main sabse peeche reh gaya hu, mujhse kuch nahi hoga",
+      "kind": "everyday",
+      "semantic": 0.2774571121620203,
+      "lexicon": false
+    },
+    {
+      "id": "HN071",
+      "text": "I have been keeping to myself and feel very lonely",
+      "kind": "everyday",
+      "semantic": 0.7755713166631124,
+      "lexicon": false
+    },
+    {
+      "id": "HN078",
+      "text": "the deadline is close, I know it, and still I cannot make myself start",
+      "kind": "everyday",
+      "semantic": 0.42812336886522306,
+      "lexicon": false
+    },
+    {
+      "id": "HN126",
+      "text": "I keep isolating myself and I am so hard on myself about it",
+      "kind": "everyday",
+      "semantic": 0.6958579932023923,
+      "lexicon": false
+    },
+    {
+      "id": "HN138",
+      "text": "I will die if I have to listen to that song again",
+      "kind": "hard_negative",
+      "semantic": 0.6291628668322988,
+      "lexicon": false
+    },
+    {
+      "id": "HN140",
+      "text": "I want to end this call quickly, how do I say goodbye politely",
+      "kind": "hard_negative",
+      "semantic": 0.3092475274983295,
+      "lexicon": false
+    },
+    {
+      "id": "HN144",
+      "text": "I want to disappear into a good novel this holiday",
+      "kind": "hard_negative",
+      "semantic": 0.24758374473043446,
+      "lexicon": false
+    },
+    {
+      "id": "HN148",
+      "text": "I am wiped out after the long bus journey",
+      "kind": "hard_negative",
+      "semantic": 0.36373297083945294,
+      "lexicon": false
+    },
+    {
+      "id": "HN155",
+      "text": "I would die for a nap right about now",
+      "kind": "hard_negative",
+      "semantic": 0.3251263040027664,
+      "lexicon": false
+    },
+    {
+      "id": "HN156",
+      "text": "that horror film scared the life out of me",
+      "kind": "hard_negative",
+      "semantic": 0.1953044775166865,
+      "lexicon": false
+    },
+    {
+      "id": "HN165",
+      "text": "I am so hungry I am fading away",
+      "kind": "hard_negative",
+      "semantic": 0.5231265811888356,
+      "lexicon": false
+    }
+  ],
+  "gate_version": "v2-learned",
+  "gate_theta": 0.1709,
+  "n_test_crisis": 60,
+  "n_test_noncrisis": 198,
+  "worst_queries": [
+    {
+      "id": "H003",
+      "text": "I keep staring at unopened chapters while the hours disappear",
+      "style": "para",
+      "ndcg5": 0.0,
+      "top1": "Balancing Study, Rest and Social Time",
+      "top1_category": "time_management",
+      "cause": "wrong category (no lexical overlap)"
+    },
+    {
+      "id": "H019",
+      "text": "bistar pe leta rehta hu par neend hi nahi aati, dimaag chalta rehta hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Separating Your Worth from Your Marks",
+      "top1_category": "exam_stress",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "H029",
+      "text": "poori raat neend toot ti rehti hai aur subah bilkul fresh nahi lagta",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "The Night-Before Reset Plan",
+      "top1_category": "exam_stress",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "H034",
+      "text": "chhoti si baat ko lekar bhi mann mein hazaar tarah ke darr aa jaate hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Gentle Evening Yoga",
+      "top1_category": "relaxation",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "H039",
+      "text": "kabhi kabhi achanak dil bahut tez dhadakne lagta hai aur haath thande ho jaate hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Why Comparing Yourself Online Hurts",
+      "top1_category": "low_mood",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "H044",
+      "text": "sabke saamne bolna padta hai toh gala sookh jaata hai aur awaaz kaanpti hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Gentle Evening Yoga",
+      "top1_category": "relaxation",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "H049",
+      "text": "kuch bhi karne ka mann nahi karta, din bas yun hi guzar jaata hai",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "Gentle Evening Yoga",
+      "top1_category": "relaxation",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    },
+    {
+      "id": "H050",
+      "text": "My guitar sits untouched, I stopped replying to the group chat, and most days I just lie there scrolling because starting anything feels pointless",
+      "style": "long",
+      "ndcg5": 0.0,
+      "top1": "Screens, Scrolling and Sleep",
+      "top1_category": "sleep",
+      "cause": "wrong category"
+    },
+    {
+      "id": "H055",
+      "text": "Whenever I make a small mistake in class my mind replays it for days and I think about how everyone else is smarter and more capable than I will ever be",
+      "style": "long",
+      "ndcg5": 0.0,
+      "top1": "Mindful Walking Between Classes",
+      "top1_category": "relaxation",
+      "cause": "wrong category"
+    },
+    {
+      "id": "H069",
+      "text": "dosto ne mujhe apne plan mein shaamil nahi kiya, bahut bura laga",
+      "style": "mix",
+      "ndcg5": 0.0,
+      "top1": "When Your Mind Will Not Stop Planning",
+      "top1_category": "anxiety",
+      "cause": "wrong category (no lexical overlap) [code-mixed]"
+    }
+  ],
+  "worst_cause_counts": {
+    "wrong category (no lexical overlap)": 1,
+    "wrong category (no lexical overlap) [code-mixed]": 7,
+    "wrong category": 2
+  },
+  "all_low_ndcg_causes": {
+    "wrong category | para": 11,
+    "wrong category | long": 9,
+    "right category, wrong subtopic | para": 11,
+    "right category, wrong subtopic | long": 3,
+    "wrong category | mix": 17,
+    "wrong category | lex": 4,
+    "right category, wrong subtopic | mix": 3,
+    "multi-concern | multi": 1
+  },
+  "n_ndcg5_below_0.5": 59,
+  "latency_in_process": {
+    "n": 128,
+    "p50_ms": 18.881149939261377,
+    "p95_ms": 27.05406507011503,
+    "mean_ms": 19.225936721340986,
+    "note": "in-process, single thread, CPU, uncached encoder"
+  },
+  "kappa": null,
+  "environment": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.5.4",
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "sentence_transformers": "6.1.0",
+    "torch": "2.14.1+cpu"
+  },
+  "data_hashes": {
+    "corpus.json": "cf79ebb1ec58a63e",
+    "queries.json": "1c5f894670763e7c",
+    "qrels.json": "5fc60b3cc2f9e9c3",
+    "safety.json": "4dc81efc2cc25b7a",
+    "crisis_lexicon.json": "b494289522200743",
+    "crisis_exemplars.json": "4f1207079ddbcfb7"
+  },
+  "params_hash": "6b7a8f4073b49d66",
+  "heldout_seal": {
+    "sealed_at": "2026-10-14T19:07:36.382039+00:00",
+    "note": "Evaluate ONCE, after system changes are frozen. Do not tune on this set.",
+    "files": {
+      "queries.json": "b7ad08e2745c37665db30edf973da700022da0825a5e2cb5d578ba62266a683f",
+      "qrels.json": "d4aced3e7aee2987fb5dc222948e96ef7dcb0d749422fc450301acac49a1a0c7",
+      "safety.json": "881e40b5233cab70d3f8c141123cf0f945c004d09f9cb947c4ca3c25351bf02f",
+      "out_of_scope.json": "448c5ac619ea5760e7e7d51027769c835d60a9f7ab256379fc36241a9064380e"
+    }
+  },
+  "note": "Sealed held-out set (v2); evaluated once with frozen parameters."
+}

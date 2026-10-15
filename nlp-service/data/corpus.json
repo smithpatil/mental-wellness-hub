@@ -1,0 +1,962 @@
+[
+  {
+    "id": "R001",
+    "title": "The Night-Before Reset Plan",
+    "description": "A calm, step-by-step plan for the evening before an exam. Decide what is worth revising, set a firm stop time, pack your bag, and close the day with a short wind-down so tomorrow starts steadier. Includes a one-page checklist and a reminder that last-minute cramming has diminishing returns.",
+    "category": "exam_stress",
+    "subtopic": "exam_panic",
+    "tags": [
+      "exam",
+      "revision",
+      "last minute",
+      "night before",
+      "plan"
+    ],
+    "duration_min": 10,
+    "type": "guide"
+  },
+  {
+    "id": "R002",
+    "title": "When Revision Feels Too Big",
+    "description": "Large syllabi can feel impossible. This guide shows how to shrink an overwhelming revision list into small, named chunks, pick the three highest-value topics first, and accept that you cannot cover everything. A realistic way to move from panic to a short, workable list.",
+    "category": "exam_stress",
+    "subtopic": "exam_panic",
+    "tags": [
+      "syllabus",
+      "overwhelmed",
+      "revision",
+      "prioritise",
+      "exam"
+    ],
+    "duration_min": 8,
+    "type": "guide"
+  },
+  {
+    "id": "R003",
+    "title": "Five-Minute Calm for Revision Breaks",
+    "description": "A quick exercise to use between study blocks when pressure spikes. Stand up, loosen your shoulders, take six slow breaths and name one thing you already know well. Designed to interrupt the spiral of 'I know nothing' without losing your study momentum.",
+    "category": "exam_stress",
+    "subtopic": "exam_panic",
+    "tags": [
+      "break",
+      "calm",
+      "revision",
+      "pressure",
+      "exercise"
+    ],
+    "duration_min": 5,
+    "type": "exercise"
+  },
+  {
+    "id": "R004",
+    "title": "Steadying Your Nerves in the Exam Hall",
+    "description": "Practical steps for the moments before and during a paper: arrive early, read the whole paper, begin with a question you can answer, and use slow exhalations if your hands shake. Also covers what to do if you feel your mind go blank mid-answer.",
+    "category": "exam_stress",
+    "subtopic": "exam_day",
+    "tags": [
+      "exam hall",
+      "nerves",
+      "blank",
+      "paper",
+      "test day"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R005",
+    "title": "Why Your Mind Goes Blank and How to Recover",
+    "description": "Blanking under pressure is common because stress narrows attention. This reading explains the idea in plain language and offers a recovery routine: pause, breathe out slowly, write down anything you remember, and return to the question from a different angle.",
+    "category": "exam_stress",
+    "subtopic": "exam_day",
+    "tags": [
+      "blank",
+      "memory",
+      "stress",
+      "recall",
+      "exam"
+    ],
+    "duration_min": 6,
+    "type": "reading"
+  },
+  {
+    "id": "R006",
+    "title": "Morning-of-Exam Routine",
+    "description": "A gentle routine for exam mornings: water, a simple breakfast, light movement, a two-minute review of a formula sheet only, and a short positive plan for the first ten minutes of the paper. Keeps the morning predictable so there is less room for worry.",
+    "category": "exam_stress",
+    "subtopic": "exam_day",
+    "tags": [
+      "morning",
+      "routine",
+      "exam",
+      "breakfast",
+      "plan"
+    ],
+    "duration_min": 5,
+    "type": "guide"
+  },
+  {
+    "id": "R007",
+    "title": "Separating Your Worth from Your Marks",
+    "description": "Marks measure one performance on one day, not your value as a person. This reflective reading helps you notice thoughts that link results to identity, and offers a few balanced alternatives you can write down and return to when expectations feel heavy.",
+    "category": "exam_stress",
+    "subtopic": "exam_pressure",
+    "tags": [
+      "results",
+      "marks",
+      "worth",
+      "expectations",
+      "failure"
+    ],
+    "duration_min": 8,
+    "type": "reading"
+  },
+  {
+    "id": "R008",
+    "title": "Talking to Family About Expectations",
+    "description": "Pressure from parents and relatives can weigh as heavily as the exam itself. This guide offers sentence starters for an honest conversation about effort, goals and support, and suggests how to share what helps you and what does not.",
+    "category": "exam_stress",
+    "subtopic": "exam_pressure",
+    "tags": [
+      "parents",
+      "family",
+      "expectations",
+      "pressure",
+      "conversation"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R009",
+    "title": "Quieting a Busy Mind at Bedtime",
+    "description": "If your thoughts speed up when the lights go off, try a brain-dump: write tomorrow's tasks and worries on paper, then follow a slow breathing count. This exercise gives your mind a place to put things down so you can drift off more easily.",
+    "category": "sleep",
+    "subtopic": "sleep_onset",
+    "tags": [
+      "bedtime",
+      "racing thoughts",
+      "fall asleep",
+      "worry",
+      "brain dump"
+    ],
+    "duration_min": 10,
+    "type": "exercise"
+  },
+  {
+    "id": "R010",
+    "title": "A Wind-Down Routine in Thirty Minutes",
+    "description": "Build a repeatable half-hour before bed: dim the lights, put devices away, do a light stretch, and read something calming. Repetition teaches your body that sleep is approaching, which can shorten the time it takes to fall asleep.",
+    "category": "sleep",
+    "subtopic": "sleep_onset",
+    "tags": [
+      "wind down",
+      "routine",
+      "bedtime",
+      "evening",
+      "stretch"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R011",
+    "title": "Progressive Muscle Relaxation for Sleep",
+    "description": "Tense and release each muscle group from toes to forehead while breathing slowly. This guided exercise helps the body let go of daytime tension and gives the mind something simple to follow instead of replaying the day.",
+    "category": "sleep",
+    "subtopic": "sleep_onset",
+    "tags": [
+      "muscle",
+      "relax",
+      "sleep",
+      "tension",
+      "guided"
+    ],
+    "duration_min": 12,
+    "type": "exercise"
+  },
+  {
+    "id": "R012",
+    "title": "Fixing an Upside-Down Sleep Schedule",
+    "description": "Late nights and late mornings can drift further each week. This guide explains how to shift your schedule gradually: move wake-up time by fifteen minutes, get morning daylight, and avoid long daytime naps so your body clock follows.",
+    "category": "sleep",
+    "subtopic": "sleep_schedule",
+    "tags": [
+      "schedule",
+      "late nights",
+      "body clock",
+      "wake up",
+      "routine"
+    ],
+    "duration_min": 8,
+    "type": "guide"
+  },
+  {
+    "id": "R013",
+    "title": "Screens, Scrolling and Sleep",
+    "description": "Late-night phone use delays bedtime and keeps the mind alert. Learn simple limits: a charging spot outside the bed, a cut-off time, and a replacement habit. Includes tips for the nights when you are tempted to scroll just a little longer.",
+    "category": "sleep",
+    "subtopic": "sleep_schedule",
+    "tags": [
+      "phone",
+      "screen",
+      "scrolling",
+      "late night",
+      "habit"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R014",
+    "title": "Recovering After an All-Nighter",
+    "description": "After a night without sleep, small choices help: gentle daylight, water, a short nap before mid-afternoon, and an earlier-than-usual bedtime. This reading also notes why repeating all-nighters tends to backfire for memory and mood.",
+    "category": "sleep",
+    "subtopic": "sleep_schedule",
+    "tags": [
+      "all-nighter",
+      "recover",
+      "nap",
+      "tired",
+      "study"
+    ],
+    "duration_min": 5,
+    "type": "reading"
+  },
+  {
+    "id": "R015",
+    "title": "What to Do When You Wake at Night",
+    "description": "Waking in the small hours is common. Avoid checking the clock, keep the lights low, and use a slow breathing pattern. If you are still awake after a while, get up briefly and do something quiet rather than lying there frustrated.",
+    "category": "sleep",
+    "subtopic": "sleep_quality",
+    "tags": [
+      "wake up",
+      "night",
+      "awake",
+      "middle of night",
+      "breathing"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R016",
+    "title": "Daytime Tiredness: Small Changes That Help",
+    "description": "Feeling heavy and sluggish during the day can come from irregular routines, caffeine timing and low movement. This guide suggests a short list of adjustments, including a daylight walk and a caffeine cut-off, and a way to track what helps.",
+    "category": "sleep",
+    "subtopic": "sleep_quality",
+    "tags": [
+      "tired",
+      "fatigue",
+      "daytime",
+      "energy",
+      "caffeine"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R017",
+    "title": "Setting Aside Worry Time",
+    "description": "Instead of fighting worries all day, schedule a fifteen-minute window to write them down and sort them into 'can act' and 'cannot control'. This technique contains worry in a bounded slot so it takes up less of your attention elsewhere.",
+    "category": "anxiety",
+    "subtopic": "worry",
+    "tags": [
+      "worry",
+      "overthinking",
+      "thoughts",
+      "scheduled",
+      "write"
+    ],
+    "duration_min": 10,
+    "type": "exercise"
+  },
+  {
+    "id": "R018",
+    "title": "Catching 'What If' Thinking",
+    "description": "Many worries start with 'what if'. This reading shows how to notice the pattern, ask for evidence, and rewrite the thought in a more balanced way. Includes a simple worksheet for practising on everyday concerns.",
+    "category": "anxiety",
+    "subtopic": "worry",
+    "tags": [
+      "what if",
+      "overthinking",
+      "thoughts",
+      "balanced",
+      "worksheet"
+    ],
+    "duration_min": 8,
+    "type": "reading"
+  },
+  {
+    "id": "R019",
+    "title": "When Your Mind Will Not Stop Planning",
+    "description": "Constantly rehearsing worst-case scenarios is tiring. Learn to separate planning that leads to action from rumination that circles, and try a short 'one next step' exercise to turn a loop into a single practical action.",
+    "category": "anxiety",
+    "subtopic": "worry",
+    "tags": [
+      "rumination",
+      "loop",
+      "planning",
+      "overthink",
+      "next step"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R020",
+    "title": "Riding Out a Wave of Panic",
+    "description": "A sudden surge of fear can bring a racing heart, tight chest and shaky hands. This guide explains why the body reacts this way, and walks through a grounding and slow-breathing routine to help the wave pass. It encourages seeing a doctor if symptoms are frequent.",
+    "category": "anxiety",
+    "subtopic": "panic_body",
+    "tags": [
+      "panic",
+      "racing heart",
+      "chest",
+      "grounding",
+      "breathing"
+    ],
+    "duration_min": 8,
+    "type": "guide"
+  },
+  {
+    "id": "R021",
+    "title": "Understanding Physical Signs of Stress",
+    "description": "Stress can show up as headaches, stomach upset, sweating or tight muscles. This reading explains the link between worry and body sensations, and offers simple calming habits, while reminding you to check with a clinician about persistent symptoms.",
+    "category": "anxiety",
+    "subtopic": "panic_body",
+    "tags": [
+      "physical",
+      "headache",
+      "stomach",
+      "sweating",
+      "body"
+    ],
+    "duration_min": 6,
+    "type": "reading"
+  },
+  {
+    "id": "R022",
+    "title": "Box Breathing for Sudden Anxiety",
+    "description": "Breathe in for four, hold for four, out for four, hold for four. This quick exercise gives your attention something steady to follow when anxiety rises in class, on a train or before a presentation.",
+    "category": "anxiety",
+    "subtopic": "panic_body",
+    "tags": [
+      "box breathing",
+      "anxious",
+      "quick",
+      "calm",
+      "breath"
+    ],
+    "duration_min": 4,
+    "type": "exercise"
+  },
+  {
+    "id": "R023",
+    "title": "Speaking Up in Class Without Dreading It",
+    "description": "Fear of being judged can keep your hand down even when you know the answer. Try small steps: prepare one comment, say it early in the session, and notice that most people are focused on their own thoughts, not on you.",
+    "category": "anxiety",
+    "subtopic": "social_anxiety",
+    "tags": [
+      "class",
+      "speaking",
+      "judged",
+      "shy",
+      "participation"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R024",
+    "title": "Easing into New Social Situations",
+    "description": "Parties, clubs and group projects can feel intimidating. This guide offers a gradual ladder of exposure: start with a brief hello, move to short conversations, and use a simple question list to take pressure off yourself.",
+    "category": "anxiety",
+    "subtopic": "social_anxiety",
+    "tags": [
+      "social",
+      "party",
+      "nervous",
+      "meeting people",
+      "conversation"
+    ],
+    "duration_min": 8,
+    "type": "guide"
+  },
+  {
+    "id": "R025",
+    "title": "Starting Small When Nothing Feels Worth Doing",
+    "description": "When energy and interest dip, big plans feel out of reach. This guide suggests tiny, specific actions such as washing your face, a five-minute walk or answering one message, and explains how small steps can gently rebuild momentum.",
+    "category": "low_mood",
+    "subtopic": "low_motivation",
+    "tags": [
+      "motivation",
+      "numb",
+      "nothing",
+      "small steps",
+      "energy"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R026",
+    "title": "A Gentle Daily Structure",
+    "description": "A simple routine with three anchors, meals, movement and one meaningful task, can steady days that feel shapeless. Learn how to build one that is flexible, forgiving and easy to restart after a bad day.",
+    "category": "low_mood",
+    "subtopic": "low_motivation",
+    "tags": [
+      "routine",
+      "structure",
+      "daily",
+      "flat",
+      "anchor"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R027",
+    "title": "Reconnecting with Things You Used to Enjoy",
+    "description": "If favourite activities feel dull, try treating them as experiments rather than obligations. This exercise helps you list past interests, pick one, do it for ten minutes and note how you feel afterwards, without pressure to enjoy it.",
+    "category": "low_mood",
+    "subtopic": "low_motivation",
+    "tags": [
+      "enjoy",
+      "hobby",
+      "interest",
+      "pleasure",
+      "experiment"
+    ],
+    "duration_min": 9,
+    "type": "exercise"
+  },
+  {
+    "id": "R028",
+    "title": "Quietening the Inner Critic",
+    "description": "Harsh self-talk can feel like truth. This reading shows how to notice critical thoughts, ask what you would say to a friend, and write a kinder, more accurate response. Practice makes the kinder voice easier to find.",
+    "category": "low_mood",
+    "subtopic": "self_criticism",
+    "tags": [
+      "self-criticism",
+      "worthless",
+      "inner critic",
+      "self-talk",
+      "kind"
+    ],
+    "duration_min": 8,
+    "type": "reading"
+  },
+  {
+    "id": "R029",
+    "title": "Why Comparing Yourself Online Hurts",
+    "description": "Social feeds show highlights, not whole lives. Learn how comparison skews judgement, and try a short experiment: unfollow two accounts that leave you feeling small and note any change in mood across a week.",
+    "category": "low_mood",
+    "subtopic": "self_criticism",
+    "tags": [
+      "comparison",
+      "social media",
+      "not enough",
+      "envy",
+      "feed"
+    ],
+    "duration_min": 6,
+    "type": "reading"
+  },
+  {
+    "id": "R030",
+    "title": "A Self-Compassion Break",
+    "description": "Pause and acknowledge that this is a hard moment, remind yourself that struggle is part of being human, and offer yourself a kind phrase. This three-step exercise takes about two minutes and can be used any time you feel you have failed.",
+    "category": "low_mood",
+    "subtopic": "self_criticism",
+    "tags": [
+      "self-compassion",
+      "failure",
+      "kind",
+      "break",
+      "exercise"
+    ],
+    "duration_min": 3,
+    "type": "exercise"
+  },
+  {
+    "id": "R031",
+    "title": "Feeling Low After a Big Change",
+    "description": "Moving cities, starting college or leaving home can bring a low period even when the change was wanted. This reading normalises that dip and suggests anchors: familiar routines, brief contact with home and one new local habit.",
+    "category": "low_mood",
+    "subtopic": "adjustment",
+    "tags": [
+      "homesick",
+      "change",
+      "new city",
+      "adjusting",
+      "transition"
+    ],
+    "duration_min": 7,
+    "type": "reading"
+  },
+  {
+    "id": "R032",
+    "title": "Coping with Homesickness",
+    "description": "Missing home is a sign of connection, not weakness. Try scheduling regular calls, bringing small reminders of home, and building a few local routines so the new place slowly becomes familiar.",
+    "category": "low_mood",
+    "subtopic": "adjustment",
+    "tags": [
+      "homesick",
+      "miss home",
+      "family",
+      "hostel",
+      "calls"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R033",
+    "title": "Making Friends When You Are New",
+    "description": "Friendships take repeated, low-stakes contact. This guide suggests joining one club, saying yes to a small invitation each week, and starting with shared tasks instead of big conversations, so connection can build naturally.",
+    "category": "loneliness",
+    "subtopic": "new_environment",
+    "tags": [
+      "new",
+      "friends",
+      "campus",
+      "first year",
+      "club"
+    ],
+    "duration_min": 8,
+    "type": "guide"
+  },
+  {
+    "id": "R034",
+    "title": "Finding Your People on Campus",
+    "description": "Look for groups built around activities, such as sports, music, volunteering or study circles. Shared activity gives you something to talk about and a reason to come back, which makes it easier to form lasting ties.",
+    "category": "loneliness",
+    "subtopic": "new_environment",
+    "tags": [
+      "campus",
+      "society",
+      "community",
+      "belong",
+      "activities"
+    ],
+    "duration_min": 6,
+    "type": "reading"
+  },
+  {
+    "id": "R035",
+    "title": "Small Talk That Leads Somewhere",
+    "description": "Starting conversations does not require wit. Use open questions, share one small detail about yourself and follow up on what the other person says. This short guide includes a few starter lines for classes, canteens and hostel corridors.",
+    "category": "loneliness",
+    "subtopic": "new_environment",
+    "tags": [
+      "small talk",
+      "conversation",
+      "icebreaker",
+      "shy",
+      "meet"
+    ],
+    "duration_min": 5,
+    "type": "guide"
+  },
+  {
+    "id": "R036",
+    "title": "When Friends Seem to Leave You Out",
+    "description": "Feeling excluded hurts, and it is easy to assume the worst. This reading helps you separate what happened from what you fear it means, and suggests a calm message you could send to check in rather than withdraw.",
+    "category": "loneliness",
+    "subtopic": "left_out",
+    "tags": [
+      "left out",
+      "excluded",
+      "friends",
+      "ignored",
+      "friendship"
+    ],
+    "duration_min": 7,
+    "type": "reading"
+  },
+  {
+    "id": "R037",
+    "title": "Repairing a Friendship After a Conflict",
+    "description": "Arguments are part of close relationships. Learn a respectful approach: wait until you are calm, describe how you felt without blame, listen to their side and agree on one small step. Includes a short script you can adapt.",
+    "category": "loneliness",
+    "subtopic": "left_out",
+    "tags": [
+      "conflict",
+      "argument",
+      "friendship",
+      "repair",
+      "apologise"
+    ],
+    "duration_min": 8,
+    "type": "guide"
+  },
+  {
+    "id": "R038",
+    "title": "Breaking the Isolation Cycle",
+    "description": "Withdrawing can feel safer, yet it often makes loneliness worse. This guide offers a gentle ladder of contact: a message, a short call, a walk with someone, and an event, so you can reconnect at a pace you can manage.",
+    "category": "loneliness",
+    "subtopic": "isolation",
+    "tags": [
+      "isolated",
+      "alone",
+      "withdraw",
+      "reconnect",
+      "stay in room"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R039",
+    "title": "Being Alone Versus Feeling Lonely",
+    "description": "Time alone can be restorative, while loneliness is a painful gap between the connection you want and the connection you have. This reading helps you tell which one you are experiencing and what to try next.",
+    "category": "loneliness",
+    "subtopic": "isolation",
+    "tags": [
+      "alone",
+      "lonely",
+      "solitude",
+      "connection",
+      "difference"
+    ],
+    "duration_min": 5,
+    "type": "reading"
+  },
+  {
+    "id": "R040",
+    "title": "Beating the Urge to Put It Off",
+    "description": "Putting tasks off is usually about avoiding uncomfortable feelings, not laziness. Try the two-minute start: commit to just two minutes on the task, then decide whether to continue. Starting is often the hardest part.",
+    "category": "time_management",
+    "subtopic": "procrastination",
+    "tags": [
+      "procrastination",
+      "putting off",
+      "start",
+      "avoid",
+      "delay"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R041",
+    "title": "Breaking a Big Assignment into Steps",
+    "description": "Large projects feel heavy because the first step is unclear. This exercise helps you list the smallest visible actions, order them and schedule the first one for today, turning a vague dread into a concrete plan.",
+    "category": "time_management",
+    "subtopic": "procrastination",
+    "tags": [
+      "assignment",
+      "project",
+      "steps",
+      "break down",
+      "deadline"
+    ],
+    "duration_min": 8,
+    "type": "exercise"
+  },
+  {
+    "id": "R042",
+    "title": "Understanding Why You Delay",
+    "description": "Delay can come from perfectionism, fear of failure or boredom. This reading helps you identify your own pattern and match it with a suitable strategy, such as lowering the standard for a first draft.",
+    "category": "time_management",
+    "subtopic": "procrastination",
+    "tags": [
+      "perfectionism",
+      "delay",
+      "avoidance",
+      "motivation",
+      "pattern"
+    ],
+    "duration_min": 7,
+    "type": "reading"
+  },
+  {
+    "id": "R043",
+    "title": "Choosing What Not to Do",
+    "description": "When everything feels urgent, drop something deliberately. Use a simple importance-and-deadline grid to sort tasks, decide what to defer or decline, and protect time for what matters most this week.",
+    "category": "time_management",
+    "subtopic": "overload",
+    "tags": [
+      "overloaded",
+      "too much",
+      "prioritise",
+      "urgent",
+      "say no"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R044",
+    "title": "Saying No Without Guilt",
+    "description": "Taking on too many commitments leaves little room to breathe. This guide gives short, polite ways to decline or negotiate a request, and a pause-before-you-agree habit that protects your time.",
+    "category": "time_management",
+    "subtopic": "overload",
+    "tags": [
+      "say no",
+      "commitments",
+      "boundaries",
+      "busy",
+      "decline"
+    ],
+    "duration_min": 5,
+    "type": "guide"
+  },
+  {
+    "id": "R045",
+    "title": "A Realistic Weekly Study Plan",
+    "description": "Build a plan around your real energy and classes. Block fixed commitments first, then schedule focused sessions with buffers and rest. Review once a week and adjust without treating a missed slot as failure.",
+    "category": "time_management",
+    "subtopic": "planning",
+    "tags": [
+      "planner",
+      "schedule",
+      "timetable",
+      "weekly",
+      "study plan"
+    ],
+    "duration_min": 9,
+    "type": "guide"
+  },
+  {
+    "id": "R046",
+    "title": "Balancing Study, Rest and Social Time",
+    "description": "A good week includes more than work. This reading offers a simple framework for sharing hours across study, rest, movement and people, and shows how protecting breaks can improve rather than reduce output.",
+    "category": "time_management",
+    "subtopic": "planning",
+    "tags": [
+      "balance",
+      "social",
+      "rest",
+      "study",
+      "time"
+    ],
+    "duration_min": 6,
+    "type": "reading"
+  },
+  {
+    "id": "R047",
+    "title": "Slow Breathing in Two Minutes",
+    "description": "Breathe in for four counts and out for six, repeating for two minutes. The longer exhale cues the body to settle. Use it at your desk, before sleep or whenever you need to come down a notch.",
+    "category": "relaxation",
+    "subtopic": "breathing",
+    "tags": [
+      "breathing",
+      "slow",
+      "calm",
+      "exhale",
+      "quick"
+    ],
+    "duration_min": 2,
+    "type": "exercise"
+  },
+  {
+    "id": "R048",
+    "title": "Belly Breathing Basics",
+    "description": "Place a hand on your abdomen and let it rise as you inhale. Learning this gentle pattern gives you a dependable tool for quieting the body and is the base for many other relaxation techniques.",
+    "category": "relaxation",
+    "subtopic": "breathing",
+    "tags": [
+      "belly",
+      "diaphragm",
+      "breath",
+      "basics",
+      "relax"
+    ],
+    "duration_min": 5,
+    "type": "guide"
+  },
+  {
+    "id": "R049",
+    "title": "Release Tension from Shoulders and Jaw",
+    "description": "Hours at a desk can leave shoulders raised and jaw tight. Follow a short sequence of rolls, drops and gentle stretches to notice and release held tension, and repeat it between study blocks.",
+    "category": "relaxation",
+    "subtopic": "body",
+    "tags": [
+      "shoulders",
+      "jaw",
+      "tension",
+      "stretch",
+      "desk"
+    ],
+    "duration_min": 4,
+    "type": "exercise"
+  },
+  {
+    "id": "R050",
+    "title": "Gentle Evening Yoga",
+    "description": "A slow, ten-minute flow of floor-based poses that ease the back, hips and neck. No experience needed. Designed to help the body unwind after a long day of sitting.",
+    "category": "relaxation",
+    "subtopic": "body",
+    "tags": [
+      "yoga",
+      "stretch",
+      "evening",
+      "body",
+      "gentle"
+    ],
+    "duration_min": 10,
+    "type": "exercise"
+  },
+  {
+    "id": "R051",
+    "title": "A Five-Senses Grounding Pause",
+    "description": "Name five things you can see, four you can touch, three you can hear, two you can smell and one you can taste. This pause brings attention back to the present when thoughts are running ahead.",
+    "category": "relaxation",
+    "subtopic": "mindfulness",
+    "tags": [
+      "grounding",
+      "senses",
+      "present",
+      "mindful",
+      "pause"
+    ],
+    "duration_min": 4,
+    "type": "exercise"
+  },
+  {
+    "id": "R052",
+    "title": "Mindful Walking Between Classes",
+    "description": "Turn a routine walk into a reset by noticing your footsteps, the air and the sounds around you. Even five minutes of unhurried attention can give your mind a small but real break.",
+    "category": "relaxation",
+    "subtopic": "mindfulness",
+    "tags": [
+      "walking",
+      "mindful",
+      "nature",
+      "outdoors",
+      "break"
+    ],
+    "duration_min": 5,
+    "type": "guide"
+  },
+  {
+    "id": "R053",
+    "title": "A Beginner's Body Scan",
+    "description": "Move attention slowly from head to toe, noticing sensations without trying to change them. This guided practice trains gentle awareness and often leaves people feeling more settled.",
+    "category": "relaxation",
+    "subtopic": "mindfulness",
+    "tags": [
+      "body scan",
+      "meditation",
+      "awareness",
+      "guided",
+      "settle"
+    ],
+    "duration_min": 10,
+    "type": "exercise"
+  },
+  {
+    "id": "R054",
+    "title": "Taming Your Phone While Studying",
+    "description": "Notifications fragment attention. Try placing the phone in another room, using app limits and batching messages into set times. This guide includes a short experiment to see how much more you complete in a distraction-free hour.",
+    "category": "focus",
+    "subtopic": "distraction",
+    "tags": [
+      "phone",
+      "notifications",
+      "distraction",
+      "social media",
+      "study"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R055",
+    "title": "Designing a Study Space That Helps",
+    "description": "Your environment cues your behaviour. Clear the desk, keep only what you need for one task, and use a consistent spot so your mind learns that this place means work.",
+    "category": "focus",
+    "subtopic": "distraction",
+    "tags": [
+      "study space",
+      "desk",
+      "environment",
+      "clutter",
+      "setup"
+    ],
+    "duration_min": 5,
+    "type": "guide"
+  },
+  {
+    "id": "R056",
+    "title": "Noise, Music and Concentration",
+    "description": "Some people focus better in silence, others with steady background sound. Try a short comparison of quiet, instrumental music and white noise, and keep what works for you.",
+    "category": "focus",
+    "subtopic": "distraction",
+    "tags": [
+      "noise",
+      "music",
+      "concentration",
+      "headphones",
+      "background"
+    ],
+    "duration_min": 4,
+    "type": "reading"
+  },
+  {
+    "id": "R057",
+    "title": "Reading Without Zoning Out",
+    "description": "If your eyes move but nothing sinks in, change how you read: preview headings, ask a question first, pause to summarise each section in one line and take brief breaks. Active reading keeps attention anchored.",
+    "category": "focus",
+    "subtopic": "attention",
+    "tags": [
+      "reading",
+      "zoning out",
+      "mind wandering",
+      "textbook",
+      "comprehension"
+    ],
+    "duration_min": 7,
+    "type": "guide"
+  },
+  {
+    "id": "R058",
+    "title": "Bringing a Wandering Mind Back",
+    "description": "A wandering mind is normal. This exercise trains the skill of noticing drift and returning gently: pick an anchor such as your breath or one sentence, and return to it each time attention slips.",
+    "category": "focus",
+    "subtopic": "attention",
+    "tags": [
+      "concentration",
+      "wandering",
+      "attention",
+      "return",
+      "anchor"
+    ],
+    "duration_min": 5,
+    "type": "exercise"
+  },
+  {
+    "id": "R059",
+    "title": "Working in Focused Sprints",
+    "description": "Use short, timed sessions, for example twenty-five minutes of work followed by five minutes of rest. The clear start and end make it easier to begin, and the breaks help you stay fresh across a long day.",
+    "category": "focus",
+    "subtopic": "study_method",
+    "tags": [
+      "pomodoro",
+      "timer",
+      "sprints",
+      "focus",
+      "breaks"
+    ],
+    "duration_min": 6,
+    "type": "guide"
+  },
+  {
+    "id": "R060",
+    "title": "Getting Started When You Do Not Feel Like It",
+    "description": "Motivation often follows action. Use a tiny launch ritual, open the book, write the date and do one question, to cross the starting line, then let momentum carry you for the next few minutes.",
+    "category": "focus",
+    "subtopic": "study_method",
+    "tags": [
+      "start",
+      "motivation",
+      "begin",
+      "ritual",
+      "study"
+    ],
+    "duration_min": 5,
+    "type": "guide"
+  }
+]

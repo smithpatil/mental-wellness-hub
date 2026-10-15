@@ -1,0 +1,52 @@
+{
+  "name": "mental-wellness-server",
+  "version": "1.0.0",
+  "description": "Mental Wellness Platform API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed/seedData.js",
+    "test": "jest --coverage --runInBand --forceExit",
+    "dev:memory": "node scripts/dev-memory.js",
+    "loadtest": "node loadtest/run.js 50,100,200"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "groq-sdk": "^1.5.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^11.3.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 30000,
+    "collectCoverageFrom": [
+      "app.js",
+      "controllers/**/*.js",
+      "middleware/**/*.js",
+      "models/**/*.js",
+      "routes/**/*.js",
+      "utils/**/*.js",
+      "!utils/sendEmail.js"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "json-summary",
+      "lcov"
+    ]
+  }
+}

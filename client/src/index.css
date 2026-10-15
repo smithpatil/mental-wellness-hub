@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Design tokens — calm, warm, low-contrast-noise palette.
+   Teal = trust/primary, lavender = reflection, peach = warmth, rose = urgent help.
+------------------------------------------------------------------- */
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  --color-canvas: #f7f5f0;
+  --color-surface: #ffffff;
+  --color-ink: #1d2b36;
+  --color-ink-2: #46586a;
+  --color-ink-3: #6d7d8d;
+  --color-line: #e8e4da;
+
+  --color-brand-50: #eaf6f4;
+  --color-brand-100: #d3ece8;
+  --color-brand-200: #a9d9d2;
+  --color-brand-500: #3b968b;
+  --color-brand-600: #2d7d73;
+  --color-brand-700: #256760;
+  --color-brand-900: #163f3b;
+
+  --color-lav-50: #f1eefb;
+  --color-lav-100: #e2dcf6;
+  --color-lav-500: #7b6fc9;
+  --color-lav-700: #56499c;
+
+  --color-peach-50: #fdf0e8;
+  --color-peach-100: #fadfcf;
+  --color-peach-500: #e9895f;
+  --color-peach-700: #b4552f;
+
+  --color-sky-soft: #e7f2fb;
+  --color-sky-deep: #3a7fb5;
+
+  --color-rose-50: #fdeef0;
+  --color-rose-500: #d9485f;
+  --color-rose-700: #a8283e;
+
+  --radius-card: 1.25rem;
+  --shadow-card: 0 1px 2px rgba(29, 43, 54, 0.04), 0 4px 14px rgba(29, 43, 54, 0.05);
+  --shadow-lift: 0 2px 4px rgba(29, 43, 54, 0.05), 0 12px 28px rgba(29, 43, 54, 0.09);
+}
+
+/* NOTE: no manual `* { margin:0; padding:0 }` reset. Tailwind's preflight already does it, and an
+   un-layered reset here would override every spacing utility (p-*, m-*, gap-*). */
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; color: var(--color-ink); }
+  h4, h5 { font-weight: 700; color: var(--color-ink); }
+  a { color: inherit; text-decoration: none; }
+  button { cursor: pointer; font-family: inherit; }
+  :focus-visible { outline: 3px solid var(--color-brand-500); outline-offset: 2px; border-radius: 6px; }
+  ::selection { background: var(--color-brand-100); }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 8px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  }
+}
+
+@layer components {
+  .card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-card);
+    padding: 1.5rem;
+  }
+  .card-hover { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+  .card-hover:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: var(--color-brand-200); }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+    font-weight: 600; font-size: .9rem; line-height: 1;
+    padding: .8rem 1.4rem; border-radius: 999px; border: 1px solid transparent;
+    transition: background .15s ease, transform .15s ease, box-shadow .15s ease, color .15s ease;
+  }
+  .btn:active { transform: scale(.98); }
+  .btn:disabled { opacity: .55; cursor: not-allowed; }
+  .btn-primary { background: var(--color-brand-600); color: #fff; box-shadow: 0 6px 16px rgba(45,125,115,.28); }
+  .btn-primary:hover:not(:disabled) { background: var(--color-brand-700); }
+  .btn-soft { background: var(--color-brand-50); color: var(--color-brand-700); }
+  .btn-soft:hover:not(:disabled) { background: var(--color-brand-100); }
+  .btn-outline { background: #fff; color: var(--color-ink); border-color: var(--color-line); }
+  .btn-outline:hover:not(:disabled) { border-color: var(--color-brand-500); color: var(--color-brand-700); }
+  .btn-danger { background: var(--color-rose-500); color: #fff; }
+  .btn-danger:hover:not(:disabled) { background: var(--color-rose-700); }
+  .btn-sm { padding: .55rem 1rem; font-size: .8rem; }
+
+  .input {
+    width: 100%; background: #fff; color: var(--color-ink);
+    border: 1.5px solid var(--color-line); border-radius: .85rem;
+    padding: .8rem 1rem; font-size: .95rem; transition: border-color .15s, box-shadow .15s;
+  }
+  .input::placeholder { color: var(--color-ink-3); opacity: .8; }
+  .input:hover { border-color: #d6d0c1; }
+  .input:focus { outline: none; border-color: var(--color-brand-500); box-shadow: 0 0 0 4px rgba(59,150,139,.15); }
+  textarea.input { resize: vertical; min-height: 7rem; }
+  .label { display: block; font-size: .85rem; font-weight: 600; color: var(--color-ink-2); margin-bottom: .4rem; }
+
+  .chip {
+    display: inline-flex; align-items: center; gap: .35rem;
+    font-size: .8rem; font-weight: 600; padding: .45rem .9rem; border-radius: 999px;
+    background: #fff; border: 1.5px solid var(--color-line); color: var(--color-ink-2);
+    transition: all .15s ease;
+  }
+  .chip:hover { border-color: var(--color-brand-500); color: var(--color-brand-700); }
+  .chip[aria-pressed="true"] { background: var(--color-brand-600); border-color: var(--color-brand-600); color: #fff; }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: .3rem; font-size: .7rem; font-weight: 700;
+    letter-spacing: .04em; text-transform: uppercase; padding: .25rem .65rem; border-radius: 999px;
+  }
+  .badge-brand { background: var(--color-brand-50); color: var(--color-brand-700); }
+  .badge-lav { background: var(--color-lav-50); color: var(--color-lav-700); }
+  .badge-peach { background: var(--color-peach-50); color: var(--color-peach-700); }
+  .badge-rose { background: var(--color-rose-50); color: var(--color-rose-700); }
+  .badge-gray { background: #f0eee8; color: var(--color-ink-2); }
+
+  .eyebrow { font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--color-brand-600); }
+  .page-title { font-size: clamp(1.75rem, 3vw, 2.4rem); }
+  .muted { color: var(--color-ink-3); }
+
+  .soft-blob { position: absolute; border-radius: 999px; filter: blur(50px); opacity: .55; pointer-events: none; }
+}
+
+@keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.floaty { animation: floaty 7s ease-in-out infinite; }

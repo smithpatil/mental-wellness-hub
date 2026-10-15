@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "H001",
+    "text": "only one night left to revise for my final paper",
+    "style": "lex",
+    "targets": [
+      "exam_panic"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H002",
+    "text": "the entire textbook is still unread and the paper starts at dawn",
+    "style": "para",
+    "targets": [
+      "exam_panic"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H003",
+    "text": "I keep staring at unopened chapters while the hours disappear",
+    "style": "para",
+    "targets": [
+      "exam_panic"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H004",
+    "text": "exam subah hai aur maine abhi tak kuch shuru bhi nahi kiya",
+    "style": "mix",
+    "targets": [
+      "exam_panic"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H005",
+    "text": "My internal starts in the morning and I have a stack of notes I never touched; each time I try to begin, my chest tightens and I switch to something pointless instead",
+    "style": "long",
+    "targets": [
+      "exam_panic"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H006",
+    "text": "I panic and forget everything when the test begins",
+    "style": "lex",
+    "targets": [
+      "exam_day"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H007",
+    "text": "seated in front of the question paper my thoughts simply vanish",
+    "style": "para",
+    "targets": [
+      "exam_day"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H008",
+    "text": "I need a way to settle myself before walking in for a big paper",
+    "style": "para",
+    "targets": [
+      "exam_day"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H009",
+    "text": "test hall mein pahunchte hi haath kaanpne lagte hai aur kuch yaad nahi aata",
+    "style": "mix",
+    "targets": [
+      "exam_day"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H010",
+    "text": "I studied for weeks and still, the second the sheet lands on my desk my head goes white and I sit there watching the clock instead of writing anything",
+    "style": "long",
+    "targets": [
+      "exam_day"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H011",
+    "text": "afraid my results will let my family down",
+    "style": "lex",
+    "targets": [
+      "exam_pressure"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H012",
+    "text": "everyone is counting on a top rank from me and it feels crushing",
+    "style": "para",
+    "targets": [
+      "exam_pressure"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H013",
+    "text": "my sense of who I am rises and falls with each score",
+    "style": "para",
+    "targets": [
+      "exam_pressure"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H014",
+    "text": "agar marks kam aaye toh papa ko kya jawab dunga, yahi darr lagta hai",
+    "style": "mix",
+    "targets": [
+      "exam_pressure"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H015",
+    "text": "Everyone in my family talks about the college I am meant to get into, and with every mock test I feel the weight of their hopes getting heavier on my shoulders",
+    "style": "long",
+    "targets": [
+      "exam_pressure"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H016",
+    "text": "I lie awake for hours unable to fall asleep",
+    "style": "lex",
+    "targets": [
+      "sleep_onset"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H017",
+    "text": "my brain starts replaying embarrassing moments the moment the lights go out",
+    "style": "para",
+    "targets": [
+      "sleep_onset"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H018",
+    "text": "bedtime is when every worry arrives and refuses to leave",
+    "style": "para",
+    "targets": [
+      "sleep_onset"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H019",
+    "text": "bistar pe leta rehta hu par neend hi nahi aati, dimaag chalta rehta hai",
+    "style": "mix",
+    "targets": [
+      "sleep_onset"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H020",
+    "text": "I go to bed at midnight tired, but then my thoughts jump from one thing to another until the sky starts getting light and I have barely slept",
+    "style": "long",
+    "targets": [
+      "sleep_onset"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H021",
+    "text": "my sleeping hours are completely reversed",
+    "style": "lex",
+    "targets": [
+      "sleep_schedule"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H022",
+    "text": "I stay glued to my phone in bed until the early hours and then oversleep",
+    "style": "para",
+    "targets": [
+      "sleep_schedule"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H023",
+    "text": "after a week of late nights I cannot return to a normal bedtime",
+    "style": "para",
+    "targets": [
+      "sleep_schedule"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H024",
+    "text": "raat bhar jaagta hu aur din mein so jaata hu, schedule bigad gaya hai",
+    "style": "mix",
+    "targets": [
+      "sleep_schedule"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H025",
+    "text": "Since the project deadline I have been working until dawn and sleeping through the afternoon, and now my body refuses to feel sleepy at any sensible hour",
+    "style": "long",
+    "targets": [
+      "sleep_schedule"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H026",
+    "text": "I keep waking up at night and feel exhausted in the morning",
+    "style": "lex",
+    "targets": [
+      "sleep_quality"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H027",
+    "text": "even after a full night in bed I drag myself through the day",
+    "style": "para",
+    "targets": [
+      "sleep_quality"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H028",
+    "text": "I surface several times during the night and then struggle to doze again",
+    "style": "para",
+    "targets": [
+      "sleep_quality"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H029",
+    "text": "poori raat neend toot ti rehti hai aur subah bilkul fresh nahi lagta",
+    "style": "mix",
+    "targets": [
+      "sleep_quality"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H030",
+    "text": "I fall asleep quickly but I am up at two, then again at four, and by the time the alarm rings I am groggy and nodding off in the first lecture",
+    "style": "long",
+    "targets": [
+      "sleep_quality"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H031",
+    "text": "I cannot stop overthinking small things",
+    "style": "lex",
+    "targets": [
+      "worry"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H032",
+    "text": "my mind keeps running through everything that might go wrong next week",
+    "style": "para",
+    "targets": [
+      "worry"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H033",
+    "text": "one tiny worry turns into a whole chain of disasters in my head",
+    "style": "para",
+    "targets": [
+      "worry"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H034",
+    "text": "chhoti si baat ko lekar bhi mann mein hazaar tarah ke darr aa jaate hai",
+    "style": "mix",
+    "targets": [
+      "worry"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H035",
+    "text": "Even on quiet days I catch myself rehearsing arguments that never happen and picturing failures that have not occurred, and it leaves me drained by evening",
+    "style": "long",
+    "targets": [
+      "worry"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H036",
+    "text": "sudden panic with a pounding heart and shaky hands",
+    "style": "lex",
+    "targets": [
+      "panic_body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H037",
+    "text": "out of the blue my chest locks up and I feel I cannot breathe properly",
+    "style": "para",
+    "targets": [
+      "panic_body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H038",
+    "text": "my stomach twists into knots whenever stress builds up",
+    "style": "para",
+    "targets": [
+      "panic_body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H039",
+    "text": "kabhi kabhi achanak dil bahut tez dhadakne lagta hai aur haath thande ho jaate hai",
+    "style": "mix",
+    "targets": [
+      "panic_body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H040",
+    "text": "In the middle of the lab session my vision blurred, my heart hammered and my palms went damp, and I rushed out because I thought something was seriously wrong",
+    "style": "long",
+    "targets": [
+      "panic_body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H041",
+    "text": "I get very nervous when I have to talk in front of people",
+    "style": "lex",
+    "targets": [
+      "social_anxiety"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H042",
+    "text": "I rehearse a question in my head all lecture but never raise my hand",
+    "style": "para",
+    "targets": [
+      "social_anxiety"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H043",
+    "text": "walking into the canteen where everyone sits in groups makes me want to turn back",
+    "style": "para",
+    "targets": [
+      "social_anxiety"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H044",
+    "text": "sabke saamne bolna padta hai toh gala sookh jaata hai aur awaaz kaanpti hai",
+    "style": "mix",
+    "targets": [
+      "social_anxiety"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H045",
+    "text": "I keep skipping the study group because I am convinced I will say something silly and they will judge me, so I stay home and feel even more cut off",
+    "style": "long",
+    "targets": [
+      "social_anxiety"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H046",
+    "text": "I feel numb and have lost interest in everything I used to like",
+    "style": "lex",
+    "targets": [
+      "low_motivation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H047",
+    "text": "I go through each day on autopilot without feeling much of anything",
+    "style": "para",
+    "targets": [
+      "low_motivation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H048",
+    "text": "even small chores feel enormous and I see no reason to try",
+    "style": "para",
+    "targets": [
+      "low_motivation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H049",
+    "text": "kuch bhi karne ka mann nahi karta, din bas yun hi guzar jaata hai",
+    "style": "mix",
+    "targets": [
+      "low_motivation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H050",
+    "text": "My guitar sits untouched, I stopped replying to the group chat, and most days I just lie there scrolling because starting anything feels pointless",
+    "style": "long",
+    "targets": [
+      "low_motivation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H051",
+    "text": "I keep telling myself I am worthless and not good enough",
+    "style": "lex",
+    "targets": [
+      "self_criticism"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H052",
+    "text": "scrolling through other people's achievements leaves me feeling like I am falling behind",
+    "style": "para",
+    "targets": [
+      "self_criticism"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H053",
+    "text": "my inner voice is harsher on me than anyone else could ever be",
+    "style": "para",
+    "targets": [
+      "self_criticism"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H054",
+    "text": "mujhe lagta hai main sabse peeche reh gaya hu, mujhse kuch nahi hoga",
+    "style": "mix",
+    "targets": [
+      "self_criticism"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H055",
+    "text": "Whenever I make a small mistake in class my mind replays it for days and I think about how everyone else is smarter and more capable than I will ever be",
+    "style": "long",
+    "targets": [
+      "self_criticism"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H056",
+    "text": "I am so homesick since I started at this new college",
+    "style": "lex",
+    "targets": [
+      "adjustment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H057",
+    "text": "everything in this hostel feels foreign and I long for my old routine",
+    "style": "para",
+    "targets": [
+      "adjustment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H058",
+    "text": "months after moving I still feel unsettled and out of place",
+    "style": "para",
+    "targets": [
+      "adjustment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H059",
+    "text": "hostel mein mann nahi lagta, ghar ki yaad aati rehti hai",
+    "style": "mix",
+    "targets": [
+      "adjustment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H060",
+    "text": "I moved to a different city for my degree and while I wanted this, I now feel flat and teary in the evenings, thinking about my family dinners back home",
+    "style": "long",
+    "targets": [
+      "adjustment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H061",
+    "text": "how can I meet people on campus when I know nobody",
+    "style": "lex",
+    "targets": [
+      "new_environment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H062",
+    "text": "I sit alone at lunch and wish somebody would just invite me over",
+    "style": "para",
+    "targets": [
+      "new_environment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H063",
+    "text": "all the groups were made in the first week and I feel like an outsider",
+    "style": "para",
+    "targets": [
+      "new_environment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H064",
+    "text": "naya college hai aur koi dost nahi, kisi se baat kaise shuru karu",
+    "style": "mix",
+    "targets": [
+      "new_environment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H065",
+    "text": "I joined late in the semester and everyone already has their circle, so I hover near the edges of conversations without knowing how to step in",
+    "style": "long",
+    "targets": [
+      "new_environment"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H066",
+    "text": "my friends went out without telling me and I feel left out",
+    "style": "lex",
+    "targets": [
+      "left_out"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H067",
+    "text": "I found out about the party from photos and it really hurt",
+    "style": "para",
+    "targets": [
+      "left_out"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H068",
+    "text": "my closest friend and I had a bad argument and now we avoid each other",
+    "style": "para",
+    "targets": [
+      "left_out"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H069",
+    "text": "dosto ne mujhe apne plan mein shaamil nahi kiya, bahut bura laga",
+    "style": "mix",
+    "targets": [
+      "left_out"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H070",
+    "text": "Three of my friends planned a weekend away and only mentioned it afterwards, and since then I have been wondering whether I did something to push them away",
+    "style": "long",
+    "targets": [
+      "left_out"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H071",
+    "text": "I have been keeping to myself and feel very lonely",
+    "style": "lex",
+    "targets": [
+      "isolation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H072",
+    "text": "days go by without me talking to anybody and the silence feels heavy",
+    "style": "para",
+    "targets": [
+      "isolation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H073",
+    "text": "I decline every invitation but then regret being alone",
+    "style": "para",
+    "targets": [
+      "isolation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H074",
+    "text": "kisi se milne ka mann nahi karta par akele rehna bhi ab bhaari lagta hai",
+    "style": "mix",
+    "targets": [
+      "isolation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H075",
+    "text": "This month I have eaten alone in my room, ignored calls and stayed away from the common room, and I realise how disconnected I have become from everyone",
+    "style": "long",
+    "targets": [
+      "isolation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H076",
+    "text": "I always postpone my work until the last minute",
+    "style": "lex",
+    "targets": [
+      "procrastination"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H077",
+    "text": "I tidy my desk and check messages instead of beginning the assignment",
+    "style": "para",
+    "targets": [
+      "procrastination"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H078",
+    "text": "the deadline is close, I know it, and still I cannot make myself start",
+    "style": "para",
+    "targets": [
+      "procrastination"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H079",
+    "text": "assignment ko roz kal pe taal deta hu aur phir raat bhar jaagna padta hai",
+    "style": "mix",
+    "targets": [
+      "procrastination"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H080",
+    "text": "I promise myself every morning that I will write the essay, and then the day slips away on little distractions until I am panicking about the submission again",
+    "style": "long",
+    "targets": [
+      "procrastination"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H081",
+    "text": "I have far too much on my plate and do not know where to start",
+    "style": "lex",
+    "targets": [
+      "overload"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H082",
+    "text": "I said yes to everything and now every day is a scramble",
+    "style": "para",
+    "targets": [
+      "overload"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H083",
+    "text": "all my tasks feel equally urgent and I cannot decide what comes first",
+    "style": "para",
+    "targets": [
+      "overload"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H084",
+    "text": "club, assignments aur part time job, sab ek saath sambhalna mushkil ho gaya hai",
+    "style": "mix",
+    "targets": [
+      "overload"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H085",
+    "text": "Between the society event, two lab reports, tuition classes and family chores I am running on four hours of rest and I cannot see what could possibly be dropped",
+    "style": "long",
+    "targets": [
+      "overload"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H086",
+    "text": "I want a better weekly study routine",
+    "style": "lex",
+    "targets": [
+      "planning"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H087",
+    "text": "I need a way to fit lectures, revision and free time into one sensible week",
+    "style": "para",
+    "targets": [
+      "planning"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H088",
+    "text": "my days feel formless and I never know how to split my hours",
+    "style": "para",
+    "targets": [
+      "planning"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H089",
+    "text": "padhai ka ek achha routine banana hai jisme aaram ka time bhi ho",
+    "style": "mix",
+    "targets": [
+      "planning"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H090",
+    "text": "Some weeks I over-study and crash, other weeks I do nothing, so I would love a steady, realistic plan that leaves room for rest and for seeing friends",
+    "style": "long",
+    "targets": [
+      "planning"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H091",
+    "text": "show me a simple breathing technique to relax",
+    "style": "lex",
+    "targets": [
+      "breathing"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H092",
+    "text": "what can I do with my breath to bring my heart rate down",
+    "style": "para",
+    "targets": [
+      "breathing"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H093",
+    "text": "I want something quick to unwind between classes without any equipment",
+    "style": "para",
+    "targets": [
+      "breathing"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H094",
+    "text": "tension mein saans ko kaise control karu, koi easy tareeka batao",
+    "style": "mix",
+    "targets": [
+      "breathing"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H095",
+    "text": "By mid-afternoon I am wound tight, so I am looking for a very short technique that uses breathing alone and that I can do quietly at my desk",
+    "style": "long",
+    "targets": [
+      "breathing"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H096",
+    "text": "my neck and shoulders are so stiff from studying",
+    "style": "lex",
+    "targets": [
+      "body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H097",
+    "text": "my body feels clenched after a long day hunched over my laptop",
+    "style": "para",
+    "targets": [
+      "body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H098",
+    "text": "I would like some slow movement to wind down before going to bed",
+    "style": "para",
+    "targets": [
+      "body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H099",
+    "text": "din bhar baithe rehne se body akad jaati hai, thoda stretching sikha do",
+    "style": "mix",
+    "targets": [
+      "body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H100",
+    "text": "After hours on my bed with a laptop my back aches and my jaw is tight, so I need a gentle routine that actually loosens everything up in the evening",
+    "style": "long",
+    "targets": [
+      "body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H101",
+    "text": "I would like to learn mindfulness and meditation",
+    "style": "lex",
+    "targets": [
+      "mindfulness"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H102",
+    "text": "something to bring me back to the present when my thoughts are racing ahead",
+    "style": "para",
+    "targets": [
+      "mindfulness"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H103",
+    "text": "can a short walk be used as a way to pause and reset my mind",
+    "style": "para",
+    "targets": [
+      "mindfulness"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H104",
+    "text": "mann ko shaant karne ke liye meditation kaise start karu",
+    "style": "mix",
+    "targets": [
+      "mindfulness"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H105",
+    "text": "I spend most of the day planning and replaying things in my head, and I would like a gentle practice that teaches me to notice what is around me and in my body",
+    "style": "long",
+    "targets": [
+      "mindfulness"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H106",
+    "text": "my phone keeps pulling me away while I am studying",
+    "style": "lex",
+    "targets": [
+      "distraction"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H107",
+    "text": "every buzz breaks my concentration and I lose where I was",
+    "style": "para",
+    "targets": [
+      "distraction"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H108",
+    "text": "my desk is cluttered and I cannot settle into work there",
+    "style": "para",
+    "targets": [
+      "distraction"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H109",
+    "text": "padhte waqt notifications baar baar dhyaan tod dete hai",
+    "style": "mix",
+    "targets": [
+      "distraction"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H110",
+    "text": "I sit down to study with good intentions, then reels and chat messages creep in, and an hour later I have barely finished one page",
+    "style": "long",
+    "targets": [
+      "distraction"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H111",
+    "text": "I cannot concentrate when I read my notes",
+    "style": "lex",
+    "targets": [
+      "attention"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H112",
+    "text": "my eyes move across the lines but nothing stays in my head",
+    "style": "para",
+    "targets": [
+      "attention"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H113",
+    "text": "I drift off in the middle of a sentence and have to start the paragraph again",
+    "style": "para",
+    "targets": [
+      "attention"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H114",
+    "text": "padhte padhte dhyaan idhar udhar chala jaata hai, kuch yaad nahi rehta",
+    "style": "mix",
+    "targets": [
+      "attention"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H115",
+    "text": "In lectures I realise ten minutes later that I was daydreaming, and when I revise I keep losing my place and rereading the same section over and over",
+    "style": "long",
+    "targets": [
+      "attention"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H116",
+    "text": "how do I use short focused study sessions with breaks",
+    "style": "lex",
+    "targets": [
+      "study_method"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H117",
+    "text": "the hardest bit is sitting down to begin, after that it flows",
+    "style": "para",
+    "targets": [
+      "study_method"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H118",
+    "text": "I need a small trick to get past the reluctance of opening my books",
+    "style": "para",
+    "targets": [
+      "study_method"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H119",
+    "text": "padhai shuru karne ka mann hi nahi hota, pehla kadam kaise uthaun",
+    "style": "mix",
+    "targets": [
+      "study_method"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H120",
+    "text": "Once I get going I can work for hours, yet each day I lose a huge chunk of time putting off the first step, so I want a small ritual that gets me started",
+    "style": "long",
+    "targets": [
+      "study_method"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H121",
+    "text": "I am worried about my exam and I lie awake thinking about it every night",
+    "style": "multi",
+    "targets": [
+      "exam_day",
+      "sleep_onset"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H122",
+    "text": "new to the city, feeling flat and I cannot get myself to do anything",
+    "style": "multi",
+    "targets": [
+      "adjustment",
+      "low_motivation"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H123",
+    "text": "I put off my project and my phone distracts me every time I sit down",
+    "style": "multi",
+    "targets": [
+      "procrastination",
+      "distraction"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H124",
+    "text": "I get nervous speaking in class and my body shakes afterwards",
+    "style": "multi",
+    "targets": [
+      "social_anxiety",
+      "panic_body"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H125",
+    "text": "too many commitments and I need to slow my breathing to cope",
+    "style": "multi",
+    "targets": [
+      "overload",
+      "breathing"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H126",
+    "text": "I keep isolating myself and I am so hard on myself about it",
+    "style": "multi",
+    "targets": [
+      "isolation",
+      "self_criticism"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H127",
+    "text": "tired from broken sleep and I cannot focus in lectures",
+    "style": "multi",
+    "targets": [
+      "sleep_quality",
+      "attention"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "H128",
+    "text": "parents expect a lot and I freeze whenever the paper is handed out",
+    "style": "multi",
+    "targets": [
+      "exam_pressure",
+      "exam_day"
+    ],
+    "split": "test"
+  }
+]

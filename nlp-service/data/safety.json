@@ -1,0 +1,2312 @@
+[
+  {
+    "id": "C001",
+    "text": "I do not want to live like this any more",
+    "label": 1,
+    "kind": "direct",
+    "split": "dev"
+  },
+  {
+    "id": "C002",
+    "text": "I give up on life",
+    "label": 1,
+    "kind": "direct",
+    "split": "dev"
+  },
+  {
+    "id": "C003",
+    "text": "I have nothing to live for",
+    "label": 1,
+    "kind": "direct",
+    "split": "dev"
+  },
+  {
+    "id": "C004",
+    "text": "everyone would be better off without me around",
+    "label": 1,
+    "kind": "direct",
+    "split": "dev"
+  },
+  {
+    "id": "C005",
+    "text": "I want to kill myself",
+    "label": 1,
+    "kind": "direct",
+    "split": "dev"
+  },
+  {
+    "id": "C006",
+    "text": "I just want to end my life, I cannot do this anymore",
+    "label": 1,
+    "kind": "direct",
+    "split": "dev"
+  },
+  {
+    "id": "C007",
+    "text": "I want to die",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C008",
+    "text": "I want to end it all",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C009",
+    "text": "What is the point of living, I feel like ending things",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C010",
+    "text": "I feel suicidal tonight",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C011",
+    "text": "i have been thinking of suicide a lot lately",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C012",
+    "text": "I am going to hurt myself",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C013",
+    "text": "my life is not worth living",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C014",
+    "text": "there is no reason to live and I am done",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C015",
+    "text": "I keep wanting to hurt myself when things get bad",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C016",
+    "text": "I wish I was dead",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C017",
+    "text": "sometimes I think about taking my own life",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C018",
+    "text": "thinking about self harm again, help",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C019",
+    "text": "i do not want to be alive",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C020",
+    "text": "I can't go on like this, I want to disappear forever",
+    "label": 1,
+    "kind": "direct",
+    "split": "test"
+  },
+  {
+    "id": "C021",
+    "text": "I just want to leave this life behind",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C022",
+    "text": "It hurts so much that I do not want to keep existing",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C023",
+    "text": "I am scared of the thoughts I have about myself tonight",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C024",
+    "text": "I cannot imagine being here next month",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C025",
+    "text": "I can't see why I should keep going",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C026",
+    "text": "I am not safe with my own thoughts right now",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C027",
+    "text": "every day I wonder if anyone would care if I was gone",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C028",
+    "text": "I wish I could erase myself",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C029",
+    "text": "I feel like a burden and the kindest thing would be to leave",
+    "label": 1,
+    "kind": "indirect",
+    "split": "dev"
+  },
+  {
+    "id": "C030",
+    "text": "I have made up my mind that I am done with everything",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C031",
+    "text": "I have said my goodbyes in my head already",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C032",
+    "text": "I think my family would have an easier time if I was not around",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C033",
+    "text": "it would be easier if I was gone",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C034",
+    "text": "my mind keeps telling me the world is better without me in it",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C035",
+    "text": "the pain is too much and I need it over",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C036",
+    "text": "Some nights I lie there wishing everything would just end",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C037",
+    "text": "I am exhausted by existing and I want it to stop",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C038",
+    "text": "I have lost all hope and see no way forward at all",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C039",
+    "text": "tonight feels like the last night I can take",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C040",
+    "text": "I feel trapped and the only way out seems final",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C041",
+    "text": "I do not think I want to be around for much longer",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C042",
+    "text": "No one would miss me if I vanished",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C043",
+    "text": "no one knows how close I am to giving up completely",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C044",
+    "text": "I keep hoping I will just not wake up in the morning",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C045",
+    "text": "I have been thinking about how to make everything stop for good",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C046",
+    "text": "I have been planning something and I think it is time",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C047",
+    "text": "I want to sleep forever",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C048",
+    "text": "I have been giving away my things because I will not need them",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C049",
+    "text": "I do not see any future and I am tired of pretending to be fine",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C050",
+    "text": "I keep thinking everyone's lives would improve without me",
+    "label": 1,
+    "kind": "indirect",
+    "split": "test"
+  },
+  {
+    "id": "C051",
+    "text": "kisi ko fark nahi padega agar main nahi rahi",
+    "label": 1,
+    "kind": "mix",
+    "split": "dev"
+  },
+  {
+    "id": "C052",
+    "text": "sab chhod ke chale jaane ka mann hai hamesha ke liye",
+    "label": 1,
+    "kind": "mix",
+    "split": "dev"
+  },
+  {
+    "id": "C053",
+    "text": "main sab khatam kar dena chahta hu, bas bahut ho gaya",
+    "label": 1,
+    "kind": "mix",
+    "split": "dev"
+  },
+  {
+    "id": "C054",
+    "text": "khud ko khatam karne ke khayal aa rahe hai",
+    "label": 1,
+    "kind": "mix",
+    "split": "test"
+  },
+  {
+    "id": "C055",
+    "text": "zindagi se thak gaya hu, ab aur nahi ho sakta",
+    "label": 1,
+    "kind": "mix",
+    "split": "test"
+  },
+  {
+    "id": "C056",
+    "text": "apni jaan lene ke baare mein soch raha hu",
+    "label": 1,
+    "kind": "mix",
+    "split": "test"
+  },
+  {
+    "id": "C057",
+    "text": "kabhi kabhi lagta hai main mar jaun toh sab theek ho jayega",
+    "label": 1,
+    "kind": "mix",
+    "split": "test"
+  },
+  {
+    "id": "C058",
+    "text": "mujhe jeene ka mann nahi hai ab",
+    "label": 1,
+    "kind": "mix",
+    "split": "test"
+  },
+  {
+    "id": "C059",
+    "text": "I think main ab aur nahi jee sakta",
+    "label": 1,
+    "kind": "mix",
+    "split": "test"
+  },
+  {
+    "id": "C060",
+    "text": "mujhe lagta hai main sabke liye bojh hu, mere bina sab behtar honge",
+    "label": 1,
+    "kind": "mix",
+    "split": "test"
+  },
+  {
+    "id": "N001",
+    "text": "exam tomorrow and I have barely revised anything, panicking",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N002",
+    "text": "how to revise in the last night before my exam",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N003",
+    "text": "so much syllabus left, feeling overwhelmed about revision",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N004",
+    "text": "I am going to sit a paper in twelve hours and I have covered almost nothing",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N005",
+    "text": "there is just too much to learn and so little time left to get through it",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N006",
+    "text": "my heart sinks every time I look at how many chapters are still untouched",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N007",
+    "text": "kal exam hai aur kuch bhi complete nahi hua, bahut tension ho raha hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N008",
+    "text": "It is 11pm, my paper is at 9 tomorrow, I keep opening my notes and closing them again because I do not know where to start and everyone else seems done already",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N009",
+    "text": "my mind goes blank during the exam",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N010",
+    "text": "very nervous in the exam hall, hands shaking",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N011",
+    "text": "what should I do on the morning of the exam",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N012",
+    "text": "I forget everything the second the question paper is placed in front of me",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N013",
+    "text": "my palms sweat and I cannot think straight when the invigilator says begin",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N014",
+    "text": "I want a calm way to start my day before a big test",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N015",
+    "text": "paper dekhte hi sab kuch bhool jata hu, dimaag ekdum khali ho jata hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N016",
+    "text": "Every time I sit for a test I know the answers outside the hall but inside my head just freezes and the first twenty minutes are wasted because I am trying not to panic",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N017",
+    "text": "scared of failing and disappointing my parents with my results",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N018",
+    "text": "feel like my marks decide my worth",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N019",
+    "text": "family expectations are putting so much pressure on me",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N020",
+    "text": "if my grades are bad I feel I am a failure as a person",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N021",
+    "text": "everyone at home expects me to top the class and I cannot bear letting them down",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N022",
+    "text": "I tie my self-esteem entirely to how I perform in tests",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N023",
+    "text": "ghar walon ko mujhse bahut umeedein hai, fail hua toh kya mooh dikhaunga",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N024",
+    "text": "My relatives keep asking what rank I will get and my father has told everyone about my dream college, so now each mock test feels like a verdict on my whole future",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N025",
+    "text": "cannot fall asleep at night, my thoughts keep racing",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N026",
+    "text": "trouble sleeping because I lie in bed worrying",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N027",
+    "text": "how to relax before bed and go to sleep faster",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N028",
+    "text": "I lie in the dark for hours with my brain replaying the whole day",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N029",
+    "text": "as soon as my head touches the pillow my mind switches on and will not stop",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N030",
+    "text": "it takes me ages to drift off even when I am exhausted",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N031",
+    "text": "raat ko neend nahi aati, bas sochta rehta hu aur phone dekhta rehta hu",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N032",
+    "text": "I am in bed by eleven but my head is still running through tomorrow's tasks and things I said years ago, and by the time I fall asleep it is almost three",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N033",
+    "text": "my sleep schedule is completely messed up, awake all night and sleeping in the day",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N034",
+    "text": "I scroll on my phone till 3am every night",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N035",
+    "text": "pulled an all-nighter and feel terrible today",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N036",
+    "text": "my body clock has flipped and I am only alert after midnight",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N037",
+    "text": "I keep staying up on my screen far past when I meant to stop",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N038",
+    "text": "after studying all night through, I want to know how to get back on track",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N039",
+    "text": "meri neend ka time bilkul ulta ho gaya hai, subah 6 baje soti hu",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N040",
+    "text": "During exam season I started sleeping at 5am and waking at noon and now even after exams I cannot go back to normal hours, I am awake at night and groggy all day",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N041",
+    "text": "I wake up in the middle of the night and cannot go back to sleep",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N042",
+    "text": "tired all day even though I sleep eight hours",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N043",
+    "text": "feeling sluggish and low energy during the daytime",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N044",
+    "text": "I keep surfacing at 3am and then stare at the ceiling",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N045",
+    "text": "no matter how long I rest I still feel drained when I get up",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N046",
+    "text": "I doze off in lectures because I never feel properly rested",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N047",
+    "text": "raat mein beech beech mein aankh khul jaati hai, din bhar thakaan rehti hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N048",
+    "text": "I do fall asleep without trouble but wake up two or three times each night and then I am yawning through morning classes and craving coffee all day",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N049",
+    "text": "I overthink everything and cannot stop worrying",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N050",
+    "text": "constant what if thoughts about the future",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N051",
+    "text": "how to stop ruminating about things that might go wrong",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N052",
+    "text": "my head keeps imagining the worst outcome for every little thing",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N053",
+    "text": "I replay conversations and plan for disasters that never happen",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N054",
+    "text": "there is a loop of anxious thinking that I cannot switch off",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N055",
+    "text": "bahut zyada overthink karta hu, har cheez ke baare mein negative hi sochta hu",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N056",
+    "text": "Even when nothing is wrong I feel uneasy, I keep running scenarios about my placements, my health, my friends being angry with me, and I get exhausted by my own thoughts",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N057",
+    "text": "sudden panic attack with racing heart and tight chest",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N058",
+    "text": "I get headaches and stomach aches when I am stressed",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N059",
+    "text": "need a quick breathing trick when anxiety hits",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N060",
+    "text": "out of nowhere my heart pounds and I feel like I cannot get enough air",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N061",
+    "text": "my body reacts to stress with a knotted stomach and shaky legs",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N062",
+    "text": "something to steady me when a rush of fear takes over in the middle of class",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N063",
+    "text": "achanak se ghabrahat hoti hai, dil tez dhadakta hai aur saans phoolti hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N064",
+    "text": "Yesterday during a seminar my chest tightened, my hands went cold and I felt dizzy, I had to step out, and I am scared it will happen again",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N065",
+    "text": "afraid to speak up in class in front of everyone",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N066",
+    "text": "social anxiety makes it hard to meet new people at parties",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N067",
+    "text": "nervous about group presentations and being judged",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N068",
+    "text": "I know the answer but my voice will not come out when the whole room is looking",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N069",
+    "text": "walking into a room of strangers makes me want to turn around and leave",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N070",
+    "text": "I worry endlessly that other people think I am awkward",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N071",
+    "text": "class mein bolne se dar lagta hai, log kya sochenge isliye chup rehta hu",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N072",
+    "text": "I avoided the freshers party and the club interviews because I was sure I would say something stupid and everyone would remember it, and now I feel stuck on the sidelines",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N073",
+    "text": "no motivation to do anything lately",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N074",
+    "text": "nothing feels enjoyable anymore and I feel numb",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N075",
+    "text": "I have no energy and everything seems pointless",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N076",
+    "text": "I used to care about my day but now I just drift through it feeling flat",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N077",
+    "text": "even getting out of bed seems like a huge effort and I see no point",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N078",
+    "text": "things that used to make me happy do not do anything for me now",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N079",
+    "text": "kisi cheez mein mann nahi lagta, sab kuch bekaar lagta hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N080",
+    "text": "For the last few weeks I just lie around, skip meals, ignore my friends' messages, and the things I loved like music or football feel like a chore with no reward",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N081",
+    "text": "I constantly criticise myself and feel worthless",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N082",
+    "text": "comparing myself to others on instagram makes me feel inadequate",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N083",
+    "text": "I feel like a failure and I am never good enough",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N084",
+    "text": "that harsh voice in my head tells me I am useless whatever I do",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N085",
+    "text": "everyone online seems to be doing so much better than I am",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N086",
+    "text": "I speak to myself in ways I would never speak to a friend",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N087",
+    "text": "mujhe lagta hai main kisi kaam ka nahi hu, sab mujhse aage nikal gaye",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N088",
+    "text": "Whenever my classmates post their internships and achievements I feel a pit in my stomach and start listing all the ways I am behind and not talented enough",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N089",
+    "text": "feeling low since I moved to a new city for college",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N090",
+    "text": "I am so homesick and miss my family",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N091",
+    "text": "struggling to adjust after the big change in my life",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N092",
+    "text": "ever since I left home everything feels grey and unfamiliar",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N093",
+    "text": "I long for my own room and the people back home",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N094",
+    "text": "this transition to hostel life is hitting me harder than I expected",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N095",
+    "text": "ghar bahut yaad aata hai, naye shehar mein mann nahi lagta",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N096",
+    "text": "It has been two months since I joined and while everyone else seems to have settled in, I still cry after calling home and the hostel room does not feel like mine",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N097",
+    "text": "I have no friends at college how to make new friends",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N098",
+    "text": "first year and I do not know anyone on campus",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N099",
+    "text": "how to start a conversation with new people",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N100",
+    "text": "I eat alone in the canteen every day and would love to find my people",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N101",
+    "text": "everyone already seems to have a group and I arrived too late",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N102",
+    "text": "I am not sure how to break the ice with classmates",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N103",
+    "text": "college mein koi dost nahi hai, naye log kaise banaun",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N104",
+    "text": "I transferred mid-year so friend groups were already formed, and I sit at the back of lectures, wishing someone would just talk to me but not knowing how to begin",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N105",
+    "text": "my friends left me out of the plan and I feel excluded",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N106",
+    "text": "had a big fight with my best friend and want to fix it",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N107",
+    "text": "I feel ignored by my friend group",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N108",
+    "text": "I saw photos of everyone hanging out without me and it stung",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N109",
+    "text": "we argued and now we are not speaking, I do not know how to patch things up",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N110",
+    "text": "they stopped replying to my messages and I wonder what I did wrong",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N111",
+    "text": "dosto ne mujhe trip mein nahi bulaya, bahut bura laga",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N112",
+    "text": "My roommates went out for dinner and did not invite me, then laughed about it in the group chat, and I keep wondering whether they even like me",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N113",
+    "text": "I have been isolating myself in my room for days",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N114",
+    "text": "feeling lonely and cut off from everyone",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N115",
+    "text": "I avoid people and stay alone, how to reconnect",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N116",
+    "text": "I keep turning down invitations and the quiet is starting to feel heavy",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N117",
+    "text": "it is hard to tell whether I just want space or I am really lonely",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N118",
+    "text": "I want to reach out but every time I try, I end up retreating",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N119",
+    "text": "main akela rehta hu, kisi se baat karne ka mann nahi karta par akelapan bhi khalta hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N120",
+    "text": "Over the semester I have stopped going to the mess and replying to calls, the days blur together, and I realise it has been a week since I spoke to anyone in person",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N121",
+    "text": "I keep procrastinating and put everything off until the last moment",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N122",
+    "text": "cannot start my assignment, how to stop delaying",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N123",
+    "text": "why do I avoid tasks even though I know the deadline is near",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N124",
+    "text": "I tell myself I will begin tomorrow and then tomorrow never comes",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N125",
+    "text": "I end up cleaning my room rather than touching the report that is due",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N126",
+    "text": "the thing I need to do sits there and I somehow never get around to it",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N127",
+    "text": "kaam ko kal pe taalta rehta hu aur phir last minute pe sab hota hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N128",
+    "text": "I have a thirty page report due in a week, I open the file, stare at the blank page, scroll my phone, and end the day with nothing written and a knot of guilt",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N129",
+    "text": "too many commitments and deadlines, I feel overloaded",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N130",
+    "text": "how to prioritise when everything is urgent",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N131",
+    "text": "I cannot say no and keep taking on more work",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N132",
+    "text": "my to-do list has grown so long I do not know what to tackle first",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N133",
+    "text": "I agreed to help with three clubs and now I am drowning",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N134",
+    "text": "there are not enough hours in the day for everything on my plate",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N135",
+    "text": "bahut saare kaam ek saath aa gaye hai, samajh nahi aa raha kya pehle karu",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N136",
+    "text": "Between labs, the fest committee, a part-time tutoring job and a project submission, I am saying yes to everyone and sleeping four hours, and I do not know what to drop",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N137",
+    "text": "need a realistic study timetable for the week",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N138",
+    "text": "how to balance study with rest and social life",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N139",
+    "text": "how to plan my study schedule better",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N140",
+    "text": "I want a routine that fits my classes and still leaves room to breathe",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N141",
+    "text": "I never seem to divide my hours sensibly between work and downtime",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N142",
+    "text": "help me organise the coming week so I am not constantly scrambling",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N143",
+    "text": "padhai aur aaram ke beech balance kaise banaun, koi time table chahiye",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N144",
+    "text": "My weeks feel random: some days I study ten hours and burn out, others I do nothing, and I would like a steady plan that includes lectures, revision, gym and seeing friends",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N145",
+    "text": "teach me a breathing exercise to calm down",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N146",
+    "text": "slow breathing technique for stress",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N147",
+    "text": "how does belly breathing work",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N148",
+    "text": "I need something quick I can do at my desk to settle my nerves",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N149",
+    "text": "is there a way to use my breath to feel less tense",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N150",
+    "text": "a simple way to slow down my heartbeat when I am wound up",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N151",
+    "text": "saans lene ki koi exercise batao jo turant calm kar de",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N152",
+    "text": "I get so wound up during the afternoon that I want a two minute thing I can do between lectures, nothing complicated, just something that brings me down a notch",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N153",
+    "text": "my shoulders and jaw feel tight from sitting at my desk",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N154",
+    "text": "gentle yoga to unwind after a long day",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N155",
+    "text": "stretching routine to release body tension",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N156",
+    "text": "after hours bent over a laptop my neck is rigid and I want to loosen up",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N157",
+    "text": "I would like a slow movement routine to switch off in the evening",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N158",
+    "text": "my whole body feels clenched and I do not know how to let go",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N159",
+    "text": "pura din baithke padhne se body akad jaati hai, kuch stretching bata do",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N160",
+    "text": "I study for long stretches on my bed and by night my back and neck ache, so I am looking for a short evening routine that actually relaxes my muscles",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N161",
+    "text": "I want to try mindfulness and meditation",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N162",
+    "text": "grounding exercise to stay in the present moment",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N163",
+    "text": "body scan guided relaxation for beginners",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N164",
+    "text": "I would like to learn to pay attention to the here and now instead of my thoughts",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N165",
+    "text": "how can I turn a walk to class into a mental break",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N166",
+    "text": "something that helps me notice my surroundings when my mind is spinning ahead",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N167",
+    "text": "meditation kaise shuru karu, mann shant karna hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N168",
+    "text": "I live in my head all day, planning and judging, and I would love a gentle practice that teaches me to just notice what is around me and what my body feels",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N169",
+    "text": "my phone keeps distracting me while I study",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N170",
+    "text": "how to set up a study space without distractions",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N171",
+    "text": "can music or noise help me concentrate",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N172",
+    "text": "every buzz pulls me away from my book and I lose the thread",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N173",
+    "text": "my desk is a mess and I cannot settle down to work there",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N174",
+    "text": "I am unsure whether silence or background sound is better for studying",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N175",
+    "text": "padhte time phone baar baar uthata hu, dhyaan bhatak jaata hai",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N176",
+    "text": "I sit down with good intentions but notifications, reels and group chats chip away at every session, and an hour later I have read two pages",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N177",
+    "text": "I read a page and nothing sticks, my mind wanders",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N178",
+    "text": "how to concentrate while reading a textbook",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N179",
+    "text": "trouble paying attention, I keep zoning out",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N180",
+    "text": "my eyes pass over the words but I take nothing in",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N181",
+    "text": "I drift away mid-sentence and have to restart the paragraph again and again",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N182",
+    "text": "I find it hard to stay with one task for even ten minutes",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N183",
+    "text": "padhte padhte dhyaan kahin aur chala jaata hai, kuch yaad nahi rehta",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N184",
+    "text": "In lectures and while revising I catch myself daydreaming, then realise ten minutes have passed and I have no idea what was just said",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N185",
+    "text": "use a pomodoro timer to study in short sessions",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N186",
+    "text": "I do not feel like studying and cannot get started",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N187",
+    "text": "how to build momentum and begin working",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N188",
+    "text": "what is a good rhythm of work and rest for a long study day",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N189",
+    "text": "the hardest part is sitting down at all, once I begin it is fine",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N190",
+    "text": "I need a trick to get over the initial reluctance to open my books",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N191",
+    "text": "padhne ka bilkul mann nahi karta, shuru kaise karu",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N192",
+    "text": "I can work well once I am going, but each day I spend hours avoiding the first step, so I want something small that gets me over that hump",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N193",
+    "text": "I am stressed about exams and cannot sleep at night",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N194",
+    "text": "Feeling lonely in a new city and so low that I have no motivation",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N195",
+    "text": "I procrastinate on my assignments and my phone distracts me when I try",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N196",
+    "text": "anxious before presentations and my body gets tense and shaky",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N197",
+    "text": "worrying all night and then too tired to focus in class",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N198",
+    "text": "overloaded with work, need a plan and a way to calm down",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N199",
+    "text": "homesick and keep isolating myself in the room",
+    "label": 0,
+    "kind": "everyday",
+    "split": "dev"
+  },
+  {
+    "id": "N200",
+    "text": "I compare myself to everyone and then cannot start studying",
+    "label": 0,
+    "kind": "everyday",
+    "split": "test"
+  },
+  {
+    "id": "N201",
+    "text": "how to end a conversation politely with a roommate",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N202",
+    "text": "that chocolate cake is to die for",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N203",
+    "text": "I need to stop doom scrolling, it is ruining my evenings",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N204",
+    "text": "I am giving up on this boring book",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N205",
+    "text": "it hurts when I run, which stretches help",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N206",
+    "text": "I will die if I miss the bus again",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N207",
+    "text": "I am so bored I could die",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N208",
+    "text": "I want to disappear into a good book this weekend",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N209",
+    "text": "this traffic is killing me, should I leave early",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N210",
+    "text": "the pressure is crushing me but I am managing",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N211",
+    "text": "I cut my finger while cooking, is a plaster enough",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N212",
+    "text": "I want to end my study session early, is that okay",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "dev"
+  },
+  {
+    "id": "N213",
+    "text": "ugh this group project is going to be the end of me",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N214",
+    "text": "I am dead tired after the lab session",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N215",
+    "text": "I killed my presentation today and I am so relieved",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N216",
+    "text": "what can I do to survive the next two weeks of exams",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N217",
+    "text": "I want to end this semester on a good note",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N218",
+    "text": "the commute is killing my energy",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N219",
+    "text": "the lecture was so dull I wanted to die",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N220",
+    "text": "how do I kill time between classes",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N221",
+    "text": "I am dying to know my results",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N222",
+    "text": "this assignment will be the death of me",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N223",
+    "text": "I am starving to death, where is the canteen",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N224",
+    "text": "I nearly died laughing at the fresher's skit",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N225",
+    "text": "I will kill for a nap right now",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N226",
+    "text": "that horror movie scared me to death",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N227",
+    "text": "this exam is killing me",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N228",
+    "text": "I could die of embarrassment after that presentation",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N229",
+    "text": "I want to harm no one, how do I say no to my lab partner kindly",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N230",
+    "text": "the deadline is killing me",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N231",
+    "text": "kill the lights and let me sleep",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N232",
+    "text": "my stomach is killing me after the mess food",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N233",
+    "text": "I can't live without my morning coffee",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N234",
+    "text": "my laptop battery is dead, any quiet charging spots in the library",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N235",
+    "text": "I am exhausted but I won't give up on my project",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N236",
+    "text": "my phone died in the middle of the lecture",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N237",
+    "text": "my plant died, am I bad at caring for things",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N238",
+    "text": "I feel like a zombie after the exam week",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N239",
+    "text": "this heat is murder in the hostel",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N240",
+    "text": "I do not want to live in the library, I need a break from studying",
+    "label": 0,
+    "kind": "hard_negative",
+    "split": "test"
+  },
+  {
+    "id": "N241",
+    "text": "what is the capital of Australia",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N242",
+    "text": "how to write a resume for internships",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N243",
+    "text": "when does the library open on Sundays",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N244",
+    "text": "bus timings to the railway station",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N245",
+    "text": "translate good morning to french",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N246",
+    "text": "python list comprehension syntax",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N247",
+    "text": "how to cook paneer butter masala",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N248",
+    "text": "recommend a good laptop under fifty thousand",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N249",
+    "text": "how to apply for a passport",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "dev"
+  },
+  {
+    "id": "N250",
+    "text": "difference between SQL and NoSQL",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N251",
+    "text": "where can I print my assignment",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N252",
+    "text": "football world cup schedule",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N253",
+    "text": "how to join the coding club",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N254",
+    "text": "how to change my email id in the portal",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N255",
+    "text": "best pizza near campus",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N256",
+    "text": "cheap flights to Goa in December",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N257",
+    "text": "gym membership fees near hostel",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N258",
+    "text": "weather forecast for tomorrow",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N259",
+    "text": "latest bollywood movie releases",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N260",
+    "text": "how do I reset my wifi password",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N261",
+    "text": "what is the formula for compound interest",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N262",
+    "text": "ticket price for the metro",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N263",
+    "text": "festival holidays list this year",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N264",
+    "text": "what is machine learning",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N265",
+    "text": "is there a hostel mess menu online",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N266",
+    "text": "how to convert a pdf to word",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N267",
+    "text": "how many credits do I need to graduate",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N268",
+    "text": "how to book a seminar hall",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N269",
+    "text": "when is the semester fee due",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  },
+  {
+    "id": "N270",
+    "text": "who won the cricket match yesterday",
+    "label": 0,
+    "kind": "out_of_scope",
+    "split": "test"
+  }
+]

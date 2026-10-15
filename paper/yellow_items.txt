@@ -1,0 +1,46 @@
+PARA: Abstract—Students facing study pressure often cannot find good mental wellness help. Current digital tools. Spread resources over many places or read private text without showing safety. This paper shows the Mental Wellness Hub, a web site whose main feature is a safety‑aware recommender. The recommender turns a student’s free‑text worry into a list of chosen self‑help links and it never gives diagnosis or treatment instructions. It compares keyword search, sparse retrieval and dense sentence‑embedding search then fuses the results. Before the search a crisis gate checks for self‑harm language. Sends such messages to emergency help instead of to the recommender. The site runs on the stack and follows a security‑by‑design plan: passwords are hashed tokens expire quickly data fields are encrypted traffic is limited and all actions are logged. The first version of the system did not meet its goals: crisis recall was 0.76 of 0.95 and the 95th‑percentile recommendation time was 4.8 s instead of 1 s. After fixing the problem using development data the final version was tested once on a hidden set of 128 author‑written questions and 60 crisis questions. The hybrid ranker scored nDCG@5 = 0.518 (95 % CI 0.465–0.564) which's 30 % better than BM25 and only slightly better than sentence embeddings alone. The crisis gate achieved a recall of 0.95 (95 % CI 0.88–1.00) while diverting 7.1 % of queries. When 200 users ran the site simultaneously on one laptop the 95th‑percentile API latency was 363 ms and the recommendation latency was 346 ms. Mixed‑language queries are still retrieved poorly and all data are written by the authors. One hundred ninety‑four automated API tests passed in 19 repeated runs. {{[SUS score: to be inserted after the usability study.]}} The Mental Wellness Hub helps students become aware of their well‑being and offers wellness support but it is not a substitute, for professional care.
+
+PARA: Usability test is defined but has not been performed yet. {{[n]}} students will perform {{[5]}} sample tasks and the ten items of the System Usability Scale [22], which will be rated using the provided script and adjective ratings from [23]. Informed consent is required, and the project needs to be approved by {{[institutional ethics committee, reference]}} before starting recruitment. No clinical data collection will be involved.
+
+PARA: The software versions, seed values, resource set, the query sets authored by the researcher with labels, seal hashes, and all the scripts are made available at {{[repository URL]}}.
+
+TABLE: Measure
+ | Result
+ | Target
+ | 
+Crisis gate recall
+ | 0.950 (57/60; 95% CI 0.883–1.000)
+ | ≥ 0.95
+ | 
+Crisis gate precision / F2
+ | 0.803 / 0.916
+ | —
+ | 
+Non-crisis wrongly diverted
+ | 7.1% (14/198)
+ | —
+ | 
+Functional tests passed (coverage)
+ | 194 of 194 (86.7% lines); 19/19 runs
+ | 100%
+ | 
+Security tests passed (auth, token, payload, crypto)
+ | 54 of 54
+ | all
+ | 
+Authorisation matrix passed
+ | 116 of 116
+ | all
+ | 
+p95 latency at 200 users (API / recommend)
+ | 363 / 346 ms
+ | ≤ 500 / ≤ 1000 ms
+ | 
+Error rate under load
+ | 0.62%
+ | &lt; 1%
+ | 
+SUS score, mean (SD), n
+ | {{[ ]}} ({{[ ]}}), {{[ ]}}
+ | ≥ 68
+ |
